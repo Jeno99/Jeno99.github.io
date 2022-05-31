@@ -17,15 +17,13 @@
 
     .container {
         display: flex;
-        height: 80vh;
+        height: 100vh;
     }
 
     .container .box {
         display: flex;
         align-items: center;
         border: 1px rgb(6, 5, 5) solid;
-        border-left: 1px white solid;
-        border-right: 1px white solid;
     }
 
     .box div {
@@ -39,6 +37,21 @@
         background-position: center center;
     }
 
+    #box4 {
+        text-align: right;
+        background-image: url("images/black.png");
+        background-size: cover;
+        background-position: center center;
+        border-right: 1px white solid;
+    }
+
+    #box0 {
+        text-align: right;
+        background-image: url("images/black.png");
+        background-size: cover;
+        background-position: center center;
+    }
+
     #box3 {
         text-align: right;
         background-size: cover;
@@ -46,10 +59,14 @@
     }
 
     h1 {
-        padding: 40px;
-        width: 500px;
+        padding: 160px;
+        padding-left: 150px;
+        padding-right: 150px;
+        width: 400px;
         text-align: center;
         font-size: 3vw;
+        border-left: 1px white solid;
+        border-right: 1px white solid;
     }
 
     p {
@@ -59,13 +76,19 @@
 
     .p1 {
         font-family: 'Lato', sans-serif;
-        font-size: 1.5vw;
+        font-size: 22px;
         font-weight: lighter;
     }
 </style>
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
 <body>
     <div class="container">
+        <div id="box0" class="box">
+            <img src="images/black.png">
+        </div>
         <div id="box1" class="box">
             <div class="titlebox">
                 <h1>
@@ -83,6 +106,9 @@
             <div id="box3" class="box">
                 <img src="images/h4i1.jpg">
 
+            </div>
+            <div id="box4" class="box">
+                <img src="images/black.png">
             </div>
         </div>
     </div>
