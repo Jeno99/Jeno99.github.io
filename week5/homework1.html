@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=devie-width, initial-scale=1.0">
+    <title>Homework 1</title>
+    <link href="css/styles1.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/plogo.png">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div class="t_side">
+                <div id="left_top_images">
+                    <img src="images/plogo_small.png">
+                </div>
+                <div id="right_top_words">
+                    <h2>Contact Number<br>0168626057</h2>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div class="topnav">
+                <a href="">Link 1</a>
+                <a href="">Link 2</a>
+                <a href="">Link 3</a>
+                <a href="">Link 4</a>
+            </div>
+        </div>
+        <div id="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/hwpaper1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/hwpaper2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/hwpaper3.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <script> /*java script for slide show*/
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <div id="feat">
+            <div class="f_column">
+                <h2>Feat 1</h2>
+            </div>
+            <div class="f_column">
+                <div class="featt">
+                    <h2>Feat 2</h2>
+                </div>
+            </div>
+            <div class="f_column">
+                <div class="featt">
+                    <h2>Feat 3</h2>
+                </div>
+            </div>
+            <div class="f_column">
+                <div class="featt">
+                    <h2>Feat 4</h2>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="tands">
+            <div id="textc">
+                <h2>
+                    Text Content
+                </h2>
+                <p>
+                    Text content
+                </p>
+            </div>
+            <div id="sidebar">
+                <div class="buttonside"><a href=""><button class="s_button">button 1</button></a></div>
+                <div class="buttonside"><a href=""><button class="s_button">button 2</button></a></div>
+                <div class="buttonside"><a href=""><button class="s_button">button 3</button></a></div>
+                <div class="buttonside"><a href=""><button class="s_button">button 4</button></a></div>
+            </div>
+        </div>
+        <div id="footer">
+            <h2>footer</h2>
+        </div>
+    </div>
+</body>
+
+</html>
