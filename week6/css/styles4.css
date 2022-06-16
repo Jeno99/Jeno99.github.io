@@ -1,0 +1,37 @@
+.logo { grid-area: a; }
+.phoneNo { grid-area: b; }
+.menu { grid-area: c; }
+.imageslide { grid-area: d; }
+.textc { grid-area: e; }
+.slidebar { grid-area: f; }
+.footer { grid-area: g; }
+
+.blank{
+    grid-area: blank;
+}
+
+.blank2{
+    grid-area: blank2;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'a a blank blank b b b b'
+      'a a blank2 c c c c c'
+      'd d d d d d d d'
+      'e e e e e f f f'
+      'e e e e e f f f'
+      'e e e e e f f f'
+      'g g g g g g g g'
+      'g g g g g g g g';
+    gap: 10px;
+    background-color: #000000;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }

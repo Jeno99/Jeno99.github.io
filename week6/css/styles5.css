@@ -1,0 +1,33 @@
+.blogmenu { grid-area: a; }
+.logo { grid-area: b; }
+.phoneNo { grid-area: c; }
+.menu { grid-area: d; }
+.imageslide { grid-area: e; }
+.textc { grid-area: f; }
+.slidebar { grid-area: g; }
+.footer { grid-area: h; }
+
+.blank{
+    grid-area: blank;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'a a a a a a a a'
+      'b b b blank blank blank c c'
+      'b b b d d d d d'
+      'e e e e e g g g'
+      'f f f f f g g g'
+      'h h h h h h h h';
+    gap: 10px;
+    background-color: #000000;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
