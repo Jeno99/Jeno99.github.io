@@ -1,0 +1,240 @@
+* {
+    margin:0;
+}
+
+.blank {grid-area: z;}
+.left-top {grid-area: a;}
+.right-top {grid-area:b;}
+.grid-1 {grid-area:management;}
+.grid-2 {grid-area:campaign;}
+.grid-3 {grid-area:media;}
+.grid-4 {grid-area:marketing;}
+.grid-5 {grid-area:advertising;}
+.grid-6 {grid-area:services;}
+
+#header{
+    display: grid;
+    grid-template-areas:
+    'a z z z b b';
+}
+
+#header > div {
+    text-align: center;
+    padding: 15px ;
+
+}
+
+.left-top{
+    display:flex;
+    align-items: center;
+}
+
+#left_top_img{
+    width: 50px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+
+#upper{
+    background-image: url(../images/Bg\ Shape@2x.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.topnav{
+    display: flex;
+    padding-top: 15px;
+}
+
+.topnav a{
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    font-size:medium;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.topnav a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration:none;
+}
+
+#upper-content{
+    display: flex;
+}
+
+#upper-content-left{
+    width: 50%;
+    padding-left: 15px;
+    padding-top: 75px;
+}
+
+#paragraph-upper-content-left-1{
+    font-size:25px;
+    color: rgb(65, 65, 65);
+}
+
+#paragraph-upper-content-left-2{
+    font-size:40px;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+}
+
+#paragraph-upper-content-left-3{
+    color: rgb(100, 100, 100);
+    padding-bottom: 10px;
+}
+
+#upper-content-right{
+    width: 50%;
+}
+
+#upper-cotnet-right-images{
+    width: 75%;
+}
+
+.button1 {
+    background-color: #4037d0;
+    background-image: url(../images/Rectangle\ 8@2x.png);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+  }
+
+  #middle-top-images{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-radius: 100%;
+    height: 50px;
+    padding-left: 8.5px;
+    padding-right: 8.5px;
+    border-color: azure;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+  }
+
+  #middle-content{
+    display: flex;
+  }
+
+  #middle-content-left{
+    width: 50%;
+  }
+
+  #middle-content-right{
+    width:50%;
+  }
+
+#middle-content-right-paragraph-1{
+    color: #9691f3;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+#middle-content-right-paragraph-2{
+    font-size:40px;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#middle-content-right-paragraph-3{
+    color: rgb(120, 120, 120);
+    padding-bottom: 25px;
+}
+
+#middle-content-right-paragraph-4{
+    color: rgb(120, 120, 120);
+    padding-bottom: 25px;
+}
+
+#middle-bottom{
+    padding-top: 100px;
+    padding-left: 75px;
+    padding-bottom: 100px;
+}
+
+#middle-bottom-paragraph-1{
+    color: #9691f3;
+    font-size: 18px;
+}
+
+#middle-bottom-paragraph-2{
+    font-size:40px;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+}
+
+#middle-content-2{
+    display: grid;
+    grid-template-areas:
+    'management management campaign campaign media media'
+    'marketing marketing advertising advertising services services';
+    gap: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#middle-content-2 > div {
+    align-items: center;
+    padding: 15px;
+    border-style:groove;
+    border-color: aliceblue;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+}
+
+.grid-images{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+}
+
+.grid-paragraph-1{
+    font-size:18px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.grid-paragraph-2{
+    padding-bottom: 30px;
+}
+
+.button2 {
+    background-color: #4037d0;
+    background-image: url(../images/Rectangle\ 8@2x.png);
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+    float: right;
+  }
+
