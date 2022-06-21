@@ -11,6 +11,9 @@
 .grid-4 {grid-area:marketing;}
 .grid-5 {grid-area:advertising;}
 .grid-6 {grid-area:services;}
+.u-grid-1 {grid-area:x;}
+.u-grid-2 {grid-area:y;}
+.u-grid-3 {grid-area:z;}
 
 #header{
     display: grid;
@@ -113,18 +116,39 @@
     border-end-end-radius: 25px;
   }
 
+  .button3 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #4037d0; 
+    border-width: 1px;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+  }
+
   #middle-top-images{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    border-style: groove;
     border-radius: 100%;
     height: 50px;
-    padding-left: 8.5px;
-    padding-right: 8.5px;
-    border-color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18.5px;
+    padding-right: 18.5px;
     background-color: rgb(255, 255, 255);
     margin-bottom: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   #middle-content{
@@ -192,12 +216,11 @@
 #middle-content-2 > div {
     align-items: center;
     padding: 15px;
-    border-style:groove;
-    border-color: aliceblue;
     border-start-start-radius: 25px;
     border-start-end-radius: 25px;
     border-end-start-radius: 25px;
     border-end-end-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .grid-images{
@@ -216,7 +239,31 @@
 }
 
 .grid-paragraph-2{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+}
+
+.grid-1{
+    position: relative;
+}
+
+.grid-2{
+    position: relative;
+}
+
+.grid-3{
+    position: relative;
+}
+
+.grid-4{
+    position: relative;
+}
+
+.grid-5{
+    position: relative;
+}
+
+.grid-6{
+    position: relative;
 }
 
 .button2 {
@@ -235,6 +282,75 @@
     border-start-end-radius: 25px;
     border-end-start-radius: 25px;
     border-end-end-radius: 25px;
-    float: right;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
   }
 
+#middle-content-2{
+    margin-bottom: 100px;
+}
+
+#middle-content-3{
+    background-color:#eceaff ;
+    text-align: center;
+}
+
+#middle-content-3-upper-paragraph-1{
+    padding-top: 50px;
+    color: #9691f3;
+    font-size: 16px;
+}
+
+#middle-content-3-upper-paragraph-2{
+    font-size:40px;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    padding-bottom: 75px;
+}
+
+#middle-content-3-bottom{
+    display: grid;
+    grid-template-areas:
+    'x x y y z z';
+    gap: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#middle-content-3-bottom > div {
+    background-color: white;
+    align-items: center;
+    padding: 15px;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.middle-content-3-bottom-paragraph-1{
+    font-size:30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.middle-content-3-bottom-paragraph-2{
+    color: rgb(120, 120, 120);
+    padding-bottom: 35px;
+}
+
+.middle-content-3-bottom-paragraph-3{
+    color:#4d44d7;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+#middle-bottom-bar-img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
