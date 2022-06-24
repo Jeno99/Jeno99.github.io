@@ -204,6 +204,9 @@ footer-grid-4 {
 
 #middle-content {
     display: flex;
+    background-image: url(../images/who\ we\ are\ background@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #middle-content-left {
@@ -262,9 +265,13 @@ footer-grid-4 {
     gap: 100px;
     padding-left: 75px;
     padding-right: 75px;
+    background-image: url(../images/background@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #middle-content-2>div {
+    background-color: white;
     align-items: center;
     padding: 15px;
     border-start-start-radius: 25px;
@@ -602,8 +609,34 @@ footer-grid-4 {
 }
 
 #upper-cotnet-right-images{
-    align-items: center;
     width:50%;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+#middle-content{
+    flex-direction:column;
+    align-items: center;
+}
+#middle-content-2 {
+    display: grid;
+    grid-template-areas:
+        'management campaign'
+        'media marketing'
+        'advertising services';
+    gap: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#middle-content-3-bottom {
+    display: grid;
+    grid-template-areas:
+        'x'
+        'y'
+        'z';
+    gap: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 }
