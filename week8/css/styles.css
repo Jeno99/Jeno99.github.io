@@ -1,0 +1,82 @@
+
+.container{
+    background-color: rgba(0,210,39,0.376);
+    max-width: fit-content;
+    margin: auto;
+}
+
+.first-lastname-textbox{
+    display: flex;
+    gap: 10px;
+}
+
+.email-phone{
+    display: flex;
+    gap: 10px;
+}
+
+.item1 { grid-area: city; }
+.item2 { grid-area: region; }
+.item3 { grid-area: postal; }
+.item4 { grid-area: country; }
+
+.bottom-container {
+    display: grid;
+    grid-template-areas:
+      'city region'
+      'postal country';
+      gap: 10px;
+  }
+input, select{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.address1{
+
+    margin-bottom: 10px;
+}
+
+.address2{
+
+    margin-bottom: 10px;
+}
+
+.button1 {
+    background-color: #005e13;
+    border: none;
+    color: white;
+    padding: 12px 24    px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    align-items: center; 
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    border-end-start-radius: 25px;
+    border-end-end-radius: 25px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+legend{
+    font-size: 40px;
+    color: #007d19;
+}
+
+.paragraph1{
+    color: #005e13;
+}
+
+.submit{
+    text-align: center;
+    align-items: center;
+}
