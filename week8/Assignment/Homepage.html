@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=devie-width, initial-scale=1.0">
+    <title>Planetside 2 - Homepage</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <script src="https://kit.fontawesome.com/18bb704c3b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="topbar-left-icon">
+                <a class="left-icon" href="https://tanjiunhou.github.io/week8/Assignment/Homepage.html">
+                    <img alt="PlanetSide 2" id="top-left-images"
+                        src="https://www-cdn.planetside2.com/img/main-nav/logo-lg.png?v=3077430966">
+                </a>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href=>About</a>
+                <a href=>Faction</a>
+                <a href=>Map</a>
+                <a href=>Game Detail</a>
+                <a href=>Contact Us</a>
+                <div class="right-top-icon">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="home-part-1">
+            <p class="tittle-center" id="home-part-1-tittle">Planetside 2</p>
+            <p class="paragraph-center" id="home-part-1-paragraph">Free FPS Game<br>Larger Battlefield Thounsand Players
+            </p>
+        </div>
+        <div class="home-part-2">
+            <p class="tittle-left">What is Planetside 2</p>
+            <div class="home-part-2-flex">
+                <div class="home-part-2-flex-left">
+                    <img id="logo-gif" src="images/logo.gif" alt="Faction Icon">
+                </div>
+                <div class="home-part-2-flex-right">
+                    <p class="paragraph-left" id="home-part-2-left-paragraph">Planetside 2 is a revolutionary massive
+                        scale first-person shooter where soilder battle as one in strategic, targeted mission against
+                        enemy empires in an all-out plantery war.</p>
+                    <p class="paragraph-left">The game challenges the skill and grit of the most seasoned soldier
+                        through instense infantry, air, and ground vehicles gameplay.</p>
+                    <div class="button">
+                        <a href="https://www.planetside2.com/home" class="button1" target="_blank">Official Webside</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-part-3">
+            <p class="tittle-left">PlanetSide 2 Official Trailer -- Epic First Person Shooter!</p>
+            <div class="video">
+                <video controls width="680" height="400">
+                <source src="video/PlanetSide 2 Official Trailer -- Epic First Person Shooter!.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              </div>
+        </div>
+        <div class="home-part-4">
+            <p class="tittle-left">What is Daybreak?</p>
+            <div class="c">
+                <div class="home-part-4-flex-left">
+                    <img id="DB-logo" src="images/daybreak.jpg" alt="Day Break Company Icon">
+                </div>
+                <div class="home-part-4-flex-right">
+                    <p class="paragraph-left">Daybreak Game Company LLC is an American video game developer based in San Diego.</p><br>
+                    <p class="paragraph-left">The company was founded in December 1997 as Sony Online Entertainment, a subsidiary of Sony Computer Entertainment, but was spun off to an independent investor in February 2015 and renamed Daybreak Game Company.</p><br>
+                    <p class="paragraph-left">On December 1, 2020, Daybreak Game Company entered into an agreement to be acquired by Enad Global 7.</p><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
