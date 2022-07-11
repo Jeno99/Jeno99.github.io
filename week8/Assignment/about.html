@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=devie-width, initial-scale=1.0">
+        <title>Planetside 2 - About</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/icon.ico">
+        <script src="https://kit.fontawesome.com/18bb704c3b.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="topbar" id="top">
+                <div class="topbar-left-icon">
+                    <a class="left-icon" href="https://tanjiunhou.github.io/week8/Assignment/Homepage.html">
+                        <img alt="PlanetSide 2" id="top-left-images"
+                            src="https://www-cdn.planetside2.com/img/main-nav/logo-lg.png?v=3077430966">
+                    </a>
+                </div>
+                <div class="topnav" id="myTopnav">
+                    <a href="https://tanjiunhou.github.io/week8/Assignment/about.html">About</a>
+                    <a href=>Faction</a>
+                    <a href=>Map</a>
+                    <a href=>Game Detail</a>
+                    <a href=>Contact Us</a>
+                    <div class="right-top-icon">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>
