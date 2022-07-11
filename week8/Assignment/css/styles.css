@@ -273,8 +273,8 @@ grid-area: d;
   background-color: #565473;
   align-items: center;
   text-align: center;
-  padding-top:50px ;
-  padding-bottom:50px ;
+  padding-top:25px ;
+  padding-bottom:25px ;
 }
 
 #everquest{
@@ -391,6 +391,14 @@ grid-area: d;
   background-image: url(../images/1920x1080.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#faction{
+  width: 100%;
+}
+
+.faction-part-2{
+  background-color: #09021A;
 }
 
 

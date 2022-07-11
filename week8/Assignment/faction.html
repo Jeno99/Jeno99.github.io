@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=devie-width, initial-scale=1.0">
+    <title>Planetside 2 - Faction</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <script src="https://kit.fontawesome.com/18bb704c3b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar" id="top">
+            <div class="topbar-left-icon">
+                <a class="left-icon" href="https://tanjiunhou.github.io/week8/Assignment/Homepage.html">
+                    <img alt="PlanetSide 2" id="top-left-images"
+                        src="https://www-cdn.planetside2.com/img/main-nav/logo-lg.png?v=3077430966">
+                </a>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="https://tanjiunhou.github.io/week8/Assignment/about.html">About</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/faction.html">Faction</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/map.html">Map</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/game-detail.html">Game Detail</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/contact-us.html">Contact Us</a>
+                <div class="right-top-icon">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="faction-part-1">
+            <img id="faction" src="images/c16873_4243612.jpg" alt="Planetside2 Faction">
+        </div>
+        <div class="faction-part-2">
+            <p class="tittle-left">Faction</p>
+            <div class="full-text">
+                <p class="paragraph-left">
+                    There are three factions or empires in PlanetSide 2: <b>Terran Republic</b>, <b>New Conglomerate</b> and <b>Vanu Sovereignty</b>.
+                </p><br>
+                <p class="paragraph-left">
+                    Each faction has its own ideology and view on the war. All can be read here, and there is some unofficial lore at Encyclopaedia Auraxia. Just don’t take it too seriously, it’s mostly for flavor.
+                </p><br>
+                <p class="paragraph-left">
+                    Each faction has access to a few faction-specific weapons and vehicles, and there’s also a large variety of cross-faction vehicles and equipment produced by Nanite Systems.
+                </p><br>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
