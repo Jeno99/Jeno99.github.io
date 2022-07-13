@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+.container{
+  max-width: 1920px;
+}
+
 .topbar {
   display: flex;
   background-color: #565473;
@@ -402,12 +406,37 @@ grid-area: d;
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .topnav.responsive {
     position: relative;
     width: 500px;
     border-style: solid;
     border-color: aliceblue;
+  }
+
+  .topnav a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  #home-part-1-paragraph {
+    padding-bottom: 200px;
+  }
+
+  #logo-gif {
+    width: 213px;
+    height: 120px;
+    justify-items: center;
+    padding-top: 25px;
+  }
+
+  #home-part-2-left-paragraph {
+    padding-bottom: 32px;
+    padding-top: 0px;
   }
 
   .topnav.responsive .icon {
@@ -527,30 +556,73 @@ grid-area: d;
  }
 }
 
-@media screen and (max-width: 700px) {
-  .topnav a {
-    display: none;
+@media screen and (max-width: 450px) {
+  .paragraph-center {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .paragraph-left {
+    color: white;
+    font-size: 10px;
   }
 
-  .topnav a.icon {
-    float: right;
-    display: block;
+  .tittle-center {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
   }
 
-  #home-part-1-paragraph {
-    padding-bottom: 200px;
+  .tittle-left {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
   }
 
-  #logo-gif {
-    width: 213px;
-    height: 120px;
-    justify-items: center;
-    padding-top: 25px;
-
+  .hyperlink-left{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
   }
+.home-part-2-flex{
+  flex-direction: column;
+  align-items: center;
+}
 
-  #home-part-2-left-paragraph {
-    padding-bottom: 32px;
-    padding-top: 0px;
-  }
+.home-part-2-flex .home-part-2-flex-left {
+  width: 100%;
+  text-align: center;
+}
+.home-part-4-flex{
+  flex-direction:column;
+  align-items: center;
+}
+.home-part-4-flex-right{
+  width: 70%;
+}
+.home-part-4-flex-left {
+  width: 100%;
+}
+video{
+  width:100% ;
+}
+.button1 {
+  margin-top: 25px;
+  background-color: #12052E;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  align-items: center;
+}
 }
