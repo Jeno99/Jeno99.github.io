@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   max-width: 1920px;
   display: block;
@@ -392,7 +396,6 @@
 }
 
 .faction-part-3 {
-  position: relative;
   background-color: #09021A;
   border-top: white;
   border-bottom: #09021A;
@@ -400,21 +403,45 @@
   border-right: #09021A;
   border-style: solid;
   border-width: 5px;
+  background-image: url(../images/tr-soldier-right.png);
+  background-repeat: no-repeat;
+  background-position: right top; 
 }
 
-.images-top-right {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.faction-container {
+.faction-part-3-paragraph{
   width: 55%;
   padding-left: 25px;
 }
 
-#faction-logo-tr {
-  display: none;
+.faction-part-4 {
+  background-color: #09021A;
+  border-top: white;
+  border-bottom: #09021A;
+  border-left: #09021A;
+  border-right: #09021A;
+  border-style: solid;
+  border-width: 5px;
+  background-image: url(../images/nc-soldier-right.png);
+  background-repeat: no-repeat;
+  background-position: right top; 
+}
+
+.faction-part-5 {
+  background-color: #09021A;
+  border-top: white;
+  border-bottom: #09021A;
+  border-left: #09021A;
+  border-right: #09021A;
+  border-style: solid;
+  border-width: 5px;
+  background-image: url(../images/vs-soldier-right.png);
+  background-repeat: no-repeat;
+  background-position: right top
+}
+
+.faction-video{
+  padding-top: 25px;
+  text-align: center;
 }
 
 .sticky{
@@ -585,16 +612,6 @@
     height: 120px;
   }
 
-  #faction-logo-tr {
-    display: initial;
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    padding-top: 100px;
-    width: 88px;
-    height: 105px;
-  }
-
   .home-part-5-grid {
     justify-items: center;
     display: grid;
@@ -666,5 +683,50 @@
     width: 100%;
     align-items: center;
     padding-top: 25px;
+  }
+
+  .faction-part-3 {
+    background-image: url(../images/tr-soldier-right.png);
+    background-image:none;
+    background-repeat: no-repeat;
+    background-position: right top; 
+  }
+
+  .faction-part-3 {
+    background-image: url(../images/terran-republic-planetside-2-red-black-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: right center; 
+    background-size: 125px 165px;
+    right: 25px;
+  }
+
+  .faction-part-4 {
+    background-image: url(../images/nc-soldier-right.png);
+    background-image:none;
+    background-repeat: no-repeat;
+    background-position: right top; 
+  }
+
+  .faction-part-4 {
+    background-image: url(../images/d6k539j-d8edd431-4e99-472c-94c8-cb3d72d87887.jpg);
+    background-repeat: no-repeat;
+    background-position: right center; 
+    background-size: 125px 165px;
+    right: 25px;
+  }
+
+  .faction-part-5 {
+    background-image: url(../images/vs-soldier-right.png);
+    background-image:none;
+    background-repeat: no-repeat;
+    background-position: right top; 
+  }
+
+  .faction-part-5 {
+    background-image: url(../images/artworks-000398753550-ho2hsj-t500x500.jpg);
+    background-repeat: no-repeat;
+    background-position: right center; 
+    background-size: 125px 165px;
+    right: 25px;
   }
 }
