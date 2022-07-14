@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-.container{
+.container {
   max-width: 1920px;
   display: block;
   margin-left: auto;
@@ -175,7 +175,7 @@
   background-color: #09021A;
 }
 
-.home-part-5{
+.home-part-5 {
   background-color: #09021A;
 }
 
@@ -213,40 +213,40 @@
 }
 
 .box1 {
-    grid-area: a;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-  }
-  
-.box2 { 
-  grid-area: b; 
+  grid-area: a;
   border-style: solid;
   border-color: white;
   border-width: 2px;
 }
 
-.box3 { 
+.box2 {
+  grid-area: b;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.box3 {
   grid-area: c;
   border-style: solid;
   border-color: white;
   border-width: 2px;
 }
 
-.box4 { 
+.box4 {
   grid-area: d;
   border-style: solid;
   border-color: white;
   border-width: 2px;
-  margin-left:200px;
+  margin-left: 200px;
 }
 
-.box5 { 
-  grid-area: e; 
+.box5 {
+  grid-area: e;
   border-style: solid;
   border-color: white;
   border-width: 2px;
-  margin-right:200px;
+  margin-right: 200px;
 }
 
 .home-part-5-grid {
@@ -259,36 +259,17 @@
   padding: 50px;
 }
 
-.copy-right {
-  grid-area: a;
-}
-
-.back-to-top-button { 
-grid-area: b; 
-}
-
-.terms { 
-grid-area: c;
-}
-
-.privacy { 
-grid-area: d;
-}
-
 .footer {
-  display: grid;
-  grid-template-areas:
-    'a a b b c d';
   background-color: #565473;
   align-items: center;
   text-align: center;
-  padding-top:25px ;
-  padding-bottom:25px ;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-#everquest{
+#everquest {
   padding-top: 25px;
-  padding-bottom:25px;
+  padding-bottom: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -296,9 +277,9 @@ grid-area: d;
   height: 120px;
 }
 
-#everquest-2{
+#everquest-2 {
   padding-top: 25px;
-  padding-bottom:25px;
+  padding-bottom: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -306,9 +287,9 @@ grid-area: d;
   height: 120px;
 }
 
-#z1-battle-royal{
+#z1-battle-royal {
   padding-top: 25px;
-  padding-bottom:25px;
+  padding-bottom: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -316,9 +297,9 @@ grid-area: d;
   height: 120px;
 }
 
-#pirate-of-the-burning{
+#pirate-of-the-burning {
   padding-top: 25px;
-  padding-bottom:25px;
+  padding-bottom: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -326,9 +307,9 @@ grid-area: d;
   height: 120px;
 }
 
-#dc-universe-online{
+#dc-universe-online {
   padding-top: 25px;
-  padding-bottom:25px;
+  padding-bottom: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -336,83 +317,83 @@ grid-area: d;
   height: 120px;
 }
 
-.hyperlink-left{
+.hyperlink-left {
   color: white;
   text-align: center;
   font-size: 18px;
   text-decoration: none;
 }
 
-#back-to-top-images{
+#back-to-top-images {
   height: 50px;
   width: 50px;
   border-radius: 100%;
   display: none;
 }
 
-.about-part-1{
+.about-part-1 {
   background-color: #09021A;
   background-image: url(../images/126-1269956_planetside-2-wallpapers-planetside-2-loading-screens.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.about-part-2{
+.about-part-2 {
   background-color: #09021A;
 }
 
-.about-part-2-flex{
+.about-part-2-flex {
   display: flex;
 }
 
-.about-part-2-flex-right{
- width: 50%;
+.about-part-2-flex-right {
+  width: 50%;
 }
 
-.about-part-2-flex-left{
- width: 75%;
+.about-part-2-flex-left {
+  width: 75%;
 }
 
-#about-paragraph-part-2-1{
+#about-paragraph-part-2-1 {
   padding-left: 25px;
 }
 
-#about-paragraph-part-2-2{
+#about-paragraph-part-2-2 {
   padding-left: 25px;
 }
 
-#novel-cover{
-  height:312px ;
-  width:287px ;
+#novel-cover {
+  height: 312px;
+  width: 287px;
   padding-bottom: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.full-text{
-  padding-left:25px;
-  padding-right:25px;
+.full-text {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
-.about-part-3{
+.about-part-3 {
   background-color: #09021A;
   background-image: url(../images/1920x1080.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#faction{
+#faction {
   width: 100%;
 }
 
-.faction-part-2{
+.faction-part-2 {
   background-color: #09021A;
 }
 
-.faction-part-3{
+.faction-part-3 {
   position: relative;
-  background-color:#09021A;
+  background-color: #09021A;
   border-top: white;
   border-bottom: #09021A;
   border-left: #09021A;
@@ -421,23 +402,28 @@ grid-area: d;
   border-width: 5px;
 }
 
-.images-top-right{
+.images-top-right {
   position: absolute;
-  top:0;
-  right:0;
+  top: 0;
+  right: 0;
 }
 
-.faction-container{
+.faction-container {
   width: 55%;
   padding-left: 25px;
 }
 
-#faction-logo-tr{
+#faction-logo-tr {
   display: none;
 }
 
-
-@media screen and (max-width: 900px) {
+.sticky{
+  position: fixed;
+  bottom: 0;
+  right: 25px;
+  width: 75px;
+}
+@media screen and (max-width: 450px) {
   .topnav.responsive {
     position: relative;
     width: 500px;
@@ -454,26 +440,6 @@ grid-area: d;
     display: block;
   }
 
-  #home-part-1-paragraph {
-    padding-bottom: 200px;
-  }
-
-  video{
-    width:100% ;
-  }
-
-  #logo-gif {
-    width: 213px;
-    height: 120px;
-    justify-items: center;
-    align-items: center;
-  }
-
-  #home-part-2-left-paragraph {
-    padding-bottom: 32px;
-    padding-top: 0px;
-  }
-
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -485,136 +451,12 @@ grid-area: d;
     display: block;
     text-align: left;
   }
-
-  #DB-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 200px;
-  }
-
-  #home-part-4-flex-right-paragraph-top {
-    padding-top: 0px;
-  }
-
-  .home-part-5-grid {
-    justify-items: center;
-    display: grid;
-    grid-template-areas:
-      'a b'
-      'c d'
-      'e e';
-    gap: 100px;
-    background-color: #09021A;
-    padding: 50px;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .box1 {
-    grid-area: a;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    width: 150%;
-  }
-  
-.box2 { 
-  grid-area: b; 
-  border-style: solid;
-  border-color: white;
-  border-width: 2px;
-  width: 150%;
-}
-
-.box3 { 
-  grid-area: c;
-  border-style: solid;
-  border-color: white;
-  border-width: 2px;
-  width: 150%;
-}
-
-.box4 { 
-  grid-area: d;
-  border-style: solid;
-  border-color: white;
-  border-width: 2px;
-  margin-left:0px;
-  width: 150%;
-}
-
-.box5 { 
-  grid-area: e; 
-  border-style: solid;
-  border-color: white;
-  border-width: 2px;
-  margin-right:0px;
-  width: 56%;
-}
-#back-to-top-images{
-  display: initial;
-}
-.top-button{
-  display: none;
-}
-
-.about-part-2-flex{
-  display: flex;
-  flex-direction: column;
-}
-
-#about-paragraph-part-2-1{
-  padding-right: 25px;
-}
-
-#about-paragraph-part-2-2{
-  padding-right: 25px;
-}
-
-.about-part-2-flex-right{
-  width: 100%;
-  padding-top: 50px;
-}
-
-#novel-cover{
-  height:312px ;
-  width:287px ;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about-part-2-flex-left{
-  width: 100%;
- }
-
-#faction-logo-tr-big{
-  display: none;
-}
-
-#faction-logo-tr{
-  display: initial;
-  display: block;
-  margin-left: auto;
-  margin-right:0;
-  padding-top: 125px;
-  width: 108px;
-  height: 125px;
-}
-.f-video{
-  width: 100%;
-}
-}
-
-@media screen and (max-width: 450px) {
   .paragraph-center {
     color: white;
     text-align: center;
     font-size: 20px;
   }
-  
+
   .paragraph-left {
     color: white;
     font-size: 20px;
@@ -636,120 +478,179 @@ grid-area: d;
     padding-left: 20px;
   }
 
-  .hyperlink-left{
+  .hyperlink-left {
     color: white;
     text-align: center;
     font-size: 20px;
     text-decoration: none;
   }
 
-.home-part-2-flex{
-  flex-direction: column;
-  align-items: center;
-}
+  .home-part-2-flex {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.home-part-2-flex .home-part-2-flex-left {
-  width: 100%;
-  text-align: center;
-  align-items: center;
-}
-.home-part-4-flex{
-  flex-direction:column;
-  align-items: center;
-}
-.home-part-4-flex-right{
-  width: 70%;
-}
-.home-part-4-flex-left {
-  width: 100%;
-}
-video{
-  width:100% ;
-}
-.button1 {
-  margin-top: 25px;
-  background-color: #12052E;
-  border: none;
-  color: white;
-  padding: 12px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  cursor: pointer;
-  align-items: center;
-}
+  .home-part-2-flex .home-part-2-flex-left {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
 
-#everquest{
-  padding-top: 25px;
-  padding-bottom:25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 54.5px;
-  height: 60px;
-}
+  .home-part-4-flex {
+    flex-direction: column;
+    align-items: center;
+  }
 
-#everquest-2{
-  padding-top: 25px;
-  padding-bottom:25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 54.5px;
-  height: 60px;
-}
+  .home-part-4-flex-right {
+    width: 70%;
+  }
 
-#z1-battle-royal{
-  padding-top: 25px;
-  padding-bottom:25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 54.5px;
-  height: 60px;
-}
+  .home-part-4-flex-left {
+    width: 100%;
+  }
 
-#pirate-of-the-burning{
-  padding-top: 25px;
-  padding-bottom:25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 54.5px;
-  height: 60px;
-}
+  video {
+    width: 100%;
+  }
 
-#dc-universe-online{
-  padding-top: 25px;
-  padding-bottom:25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 54.5px;
-  height: 60px;
-}
+  .button1 {
+    margin-top: 25px;
+    background-color: #12052E;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+  }
 
-#faction-logo-tr{
-  display: initial;
-  display: block;
-  margin-left: auto;
-  margin-right:0;
-  padding-top: 100px;
-  width: 88px;
-  height: 105px;
-}
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-.home-part-5-grid {
-  justify-items: center;
-  display: grid;
-  grid-template-areas:
-    'a b'
-    'c d'
-    'e e';
-  gap: 75px;
-  background-color: #09021A;
-  justify-content: center;
-  align-content: center;
-}
+  #everquest {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 109px;
+    height: 120px;
+  }
+
+  #everquest-2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 109px;
+    height: 120px;
+  }
+
+  #z1-battle-royal {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 109px;
+    height: 120px;
+  }
+
+  #pirate-of-the-burning {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 109px;
+    height: 120px;
+  }
+
+  #dc-universe-online {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 109px;
+    height: 120px;
+  }
+
+  #faction-logo-tr {
+    display: initial;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    padding-top: 100px;
+    width: 88px;
+    height: 105px;
+  }
+
+  .home-part-5-grid {
+    justify-items: center;
+    display: grid;
+    grid-template-areas:
+      'a'
+      'b'
+      'c'
+      'd'
+      'e';
+    gap: 25px;
+    background-color: #09021A;
+  }
+
+  .box1 {
+    grid-area: a;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    width: 100%;
+  }
+
+  .box2 {
+    grid-area: b;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    width: 100%;
+  }
+
+  .box3 {
+    grid-area: c;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    width: 100%;
+  }
+
+  .box4 {
+    grid-area: d;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .box5 {
+    grid-area: e;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  #logo-gif {
+    width: 300px;
+  }
 }
