@@ -405,6 +405,31 @@ grid-area: d;
   background-color: #09021A;
 }
 
+.faction-part-3{
+  position: relative;
+  background-color:#09021A;
+  border-top: white;
+  border-bottom: #09021A;
+  border-left: #09021A;
+  border-right: #09021A;
+  border-style: solid;
+}
+
+.images-top-right{
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+.faction-container{
+  width: 55%;
+  padding-left: 25px;
+}
+
+#faction-logo-tr{
+  display: none;
+}
+
 
 @media screen and (max-width: 900px) {
   .topnav.responsive {
@@ -554,6 +579,15 @@ grid-area: d;
 .about-part-2-flex-left{
   width: 100%;
  }
+
+#faction-logo-tr-big{
+  display: none;
+}
+
+#faction-logo-tr{
+  display: initial;
+  width:55%;
+}
 }
 
 @media screen and (max-width: 450px) {
@@ -587,7 +621,7 @@ grid-area: d;
   .hyperlink-left{
     color: white;
     text-align: center;
-    font-size: 10px;
+    font-size: 8px;
     text-decoration: none;
   }
 .home-part-2-flex{
@@ -624,5 +658,55 @@ video{
   font-size: 10px;
   cursor: pointer;
   align-items: center;
+}
+
+#everquest{
+  padding-top: 25px;
+  padding-bottom:25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 54.5px;
+  height: 60px;
+}
+
+#everquest-2{
+  padding-top: 25px;
+  padding-bottom:25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 54.5px;
+  height: 60px;
+}
+
+#z1-battle-royal{
+  padding-top: 25px;
+  padding-bottom:25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 54.5px;
+  height: 60px;
+}
+
+#pirate-of-the-burning{
+  padding-top: 25px;
+  padding-bottom:25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 54.5px;
+  height: 60px;
+}
+
+#dc-universe-online{
+  padding-top: 25px;
+  padding-bottom:25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 54.5px;
+  height: 60px;
 }
 }
