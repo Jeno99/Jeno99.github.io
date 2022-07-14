@@ -653,4 +653,18 @@
   #logo-gif {
     width: 300px;
   }
+
+  .about-part-2-flex{
+    flex-direction: column;
+  }
+
+  .about-part-2-flex-left{
+    width: 100%;
+  }
+
+  .about-part-2-flex-right{
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+  }
 }
