@@ -4,6 +4,9 @@
 
 .container{
   max-width: 1920px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .topbar {
@@ -79,12 +82,12 @@
 .paragraph-center {
   color: white;
   text-align: center;
-  font-size: 18px;
+  font-size: 26px;
 }
 
 .paragraph-left {
   color: white;
-  font-size: 18px;
+  font-size: 26px;
 }
 
 .home-part-2 {
@@ -101,11 +104,13 @@
 
 .home-part-2-flex {
   display: flex;
+  align-items: center;
 }
 
 .home-part-2-flex .home-part-2-flex-left {
   width: 35%;
   text-align: center;
+  align-items: center;
 }
 
 .home-part-2-flex-right {
@@ -126,7 +131,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 26px;
   cursor: pointer;
   align-items: center;
 }
@@ -147,7 +152,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 26px;
   cursor: pointer;
   align-items: center;
 }
@@ -413,6 +418,7 @@ grid-area: d;
   border-left: #09021A;
   border-right: #09021A;
   border-style: solid;
+  border-width: 5px;
 }
 
 .images-top-right{
@@ -455,12 +461,12 @@ grid-area: d;
   video{
     width:100% ;
   }
-  
+
   #logo-gif {
     width: 213px;
     height: 120px;
     justify-items: center;
-    padding-top: 25px;
+    align-items: center;
   }
 
   #home-part-2-left-paragraph {
@@ -590,7 +596,15 @@ grid-area: d;
 
 #faction-logo-tr{
   display: initial;
-  width:55%;
+  display: block;
+  margin-left: auto;
+  margin-right:0;
+  padding-top: 125px;
+  width: 108px;
+  height: 125px;
+}
+.f-video{
+  width: 100%;
 }
 }
 
@@ -598,12 +612,12 @@ grid-area: d;
   .paragraph-center {
     color: white;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
   }
   
   .paragraph-left {
     color: white;
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .tittle-center {
@@ -625,9 +639,10 @@ grid-area: d;
   .hyperlink-left{
     color: white;
     text-align: center;
-    font-size: 8px;
+    font-size: 20px;
     text-decoration: none;
   }
+
 .home-part-2-flex{
   flex-direction: column;
   align-items: center;
@@ -636,6 +651,7 @@ grid-area: d;
 .home-part-2-flex .home-part-2-flex-left {
   width: 100%;
   text-align: center;
+  align-items: center;
 }
 .home-part-4-flex{
   flex-direction:column;
@@ -659,7 +675,7 @@ video{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 10px;
+  font-size: 20px;
   cursor: pointer;
   align-items: center;
 }
@@ -712,5 +728,28 @@ video{
   margin-right: auto;
   width: 54.5px;
   height: 60px;
+}
+
+#faction-logo-tr{
+  display: initial;
+  display: block;
+  margin-left: auto;
+  margin-right:0;
+  padding-top: 100px;
+  width: 88px;
+  height: 105px;
+}
+
+.home-part-5-grid {
+  justify-items: center;
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'c d'
+    'e e';
+  gap: 75px;
+  background-color: #09021A;
+  justify-content: center;
+  align-content: center;
 }
 }
