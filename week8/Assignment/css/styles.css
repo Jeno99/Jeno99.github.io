@@ -450,6 +450,89 @@ body{
   right: 25px;
   width: 75px;
 }
+
+.map-part-1{
+  background-color: #09021A;
+  background-image: url(../images/travis-anderson-atomhawk-atomhawk-daybreak-games-planetside-2-oshur-marketing-art-final.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#map-part-2{
+  padding-bottom: 25px;
+}
+
+.map{
+  background-color: #09021A;
+  border-top: white;
+  border-bottom: #09021A;
+  border-left: #09021A;
+  border-right: #09021A;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.map-flex{
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+}
+
+#ps2-map{
+  width: 100%;
+}
+
+#ps2-map-2{
+  width: 100%;
+}
+
+#ps2-map-3{
+  width: 100%;
+}
+
+#ps2-map-4{
+  width: 100%;
+}
+
+#ps2-map-5{
+  width: 100%;
+}
+
+.map-flex-left{
+  width: 50%;
+}
+
+.pic-1 {
+  grid-area: a;
+}
+
+.pic-2 {
+  grid-area: b;
+}
+
+.pic-3 {
+  grid-area: c;
+}
+
+.pic-4 {
+  grid-area: d;
+}
+
+.map-flex-right {
+  width: 50%;
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'c d';
+  gap: 25px;
+  background-color: #09021A;
+}
+
+.pic{
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 450px) {
   .topnav.responsive {
     position: relative;
@@ -728,5 +811,17 @@ body{
     background-position: right center; 
     background-size: 125px 165px;
     right: 25px;
+  }
+
+  .map-flex{
+    flex-direction: column;
+  }
+
+  .map-flex-left{
+    width: 100%;
+  }
+
+  .map-flex-right{
+    width: 100%
   }
 }
