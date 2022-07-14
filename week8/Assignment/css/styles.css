@@ -452,6 +452,10 @@ grid-area: d;
     padding-bottom: 200px;
   }
 
+  video{
+    width:100% ;
+  }
+  
   #logo-gif {
     width: 213px;
     height: 120px;
