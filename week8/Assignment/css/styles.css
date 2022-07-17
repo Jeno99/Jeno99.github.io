@@ -4,13 +4,16 @@
 
 body{
   font-family: 'Raleway', sans-serif;
+  background-color: #565473;
 }
+
 
 .container {
   max-width: 1920px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: #565473;
 }
 
 .topbar {
@@ -533,6 +536,341 @@ body{
   height: 100%;
 }
 
+.game-part-1{
+  background-color: #09021A;
+  background-image: url(../images/planetside-2-shattered-warpgate.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#classes-center-words{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.game-part-2{
+  background-color: #09021A;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.game-part-2-flex{
+  display: flex;
+  padding-top: 25px;
+  align-items: center;
+}
+
+.game-part-2-flex-left{
+  width: 70%;
+}
+
+#game-part-2-flex-left-paragraph{
+  padding-bottom: 25px;
+}
+
+.game-part-2-flex-right{
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-part-2-flex-right-image{
+  width: 350px;
+  align-items: center;
+  justify-items: center;
+}
+
+.game-part-3{
+  background-color: #09021A;
+  background-image: url(../images/maxresdefault.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#weapon{
+  padding-top: 50px;
+  padding-bottom:25px;
+}
+
+#vehicals{
+  padding-bottom: 25px;
+}
+
+#weapon-p{
+  padding-bottom:50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.game-part-4{
+  background-color: #09021A;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+}
+
+.tittle{
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.weapon-box1 {
+  grid-area: a;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.weapon-box2 {
+  grid-area: b;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.weapon-box3 {
+  grid-area: c;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.weapon-box4 {
+  grid-area: d;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.weapon-box5 {
+  grid-area: e;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.weapon-box6 {
+  grid-area: f;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.weapon-box {
+  display: grid;
+  grid-template-areas:
+    'a b c'
+    'd e f';
+  gap: 25px;
+  background-color: #09021A;
+  padding: 50px;
+}
+
+.vehical-box{
+  display: grid;
+  grid-template-areas:
+    'a b';
+  gap: 25px;
+  background-color: #09021A;
+  padding: 50px;
+}
+
+.vehical-box1 {
+  grid-area: a;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.vehical-box2 {
+  grid-area: b;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.weapon-img{
+  width: 100%;
+}
+
+.dropdown{
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  position: relative;
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+}
+
+.dorp-down-arrow{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#09021A;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.game-part-5{
+  background-color: #09021a;
+  background-image: url(../images/cfc507ac82a8deef32593dcd9f8e0a30.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.innercontainer{
+  background-color: rgba(9, 2, 26,0.376);
+  max-width: fit-content;
+  margin: auto;
+}
+
+.email-phone{
+  display: flex;
+  gap: 10px;
+}
+
+#email{
+  width: 50%;
+}
+
+#phone{
+  width:50%;
+}
+
+.item1 { 
+  grid-area: city;
+  width: 100%;
+}
+.item2 { 
+  grid-area: region;
+  width: 100%;
+}
+.item3 { 
+  grid-area: postal; 
+  width: 100%;
+}
+.item4 { 
+  grid-area: country;
+  width: 100%;
+}
+
+.bottom-container {
+  display: grid;
+  grid-template-areas:
+    'city region'
+    'postal country';
+    gap: 10px;
+
+}
+input, select{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.address1{
+
+  margin-bottom: 10px;
+}
+
+.address2{
+
+  margin-bottom: 10px;
+}
+
+.outnercontainer{
+  background-color: #09021a;
+  background-image: url(../images/FPS0Y4mVgAAe5r3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button111 {
+  background-color: #5100ff;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  align-items: center; 
+}
+
+.button101{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+legend{
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.paragraph1{
+  color: #ffffff;
+}
+
+.submit{
+  text-align: center;
+  align-items: center;
+}
+
+#head{
+  text-align: center;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+#gender{
+  width: 101%;
+}
+
+#country{
+  width: 101%;
+}
+
 @media screen and (max-width: 450px) {
   .topnav.responsive {
     position: relative;
@@ -588,6 +926,11 @@ body{
     padding-left: 20px;
   }
 
+  #head{
+    text-align: center;
+    font-size: 36px;
+    font-weight:bold;
+  }
   .hyperlink-left {
     color: white;
     text-align: center;
@@ -824,4 +1167,124 @@ body{
   .map-flex-right{
     width: 100%
   }
+
+  .game-part-2-flex-right-image{
+    width: 0;
+    display:none;
+  }
+
+  .game-part-2-flex-left{
+    width: 100%;
+  }
+
+  #weapon-p{
+    padding-bottom:50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  
+.faction-icon{
+  width: 75%;
+}
+
+.left{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.weapon-box {
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'c d'
+    'e f';
+  gap: 25px;
+  background-color: #09021A;
+  padding: 15px;
+}
+
+.vehical-box{
+  display: grid;
+  grid-template-areas:
+    'a b';
+  gap: 25px;
+  background-color: #09021A;
+  padding: 15px;
+}
+
+.weapon-box1 {
+  grid-area: a;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.weapon-box2 {
+  grid-area: b;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.weapon-box3 {
+  grid-area: c;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.weapon-box4 {
+  grid-area: d;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.weapon-box5 {
+  grid-area: e;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.weapon-box6 {
+  grid-area: f;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.vehical-box1 {
+  grid-area: a;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.vehical-box2 {
+  grid-area: b;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding-bottom: 50px;
+  position: relative;
+}
 }
