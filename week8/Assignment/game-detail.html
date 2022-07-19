@@ -14,11 +14,20 @@
 
 <body>
     <div class="container">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="https://tanjiunhou.github.io/week8/Assignment/about.html">About</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/faction.html">Faction</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/map.html">Map</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/game-detail.html">Game Detail</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/contact-us.html">Contact Us</a>
+            </div>
+        </div>
         <div class="topbar" id="top">
             <div class="topbar-left-icon">
                 <a class="left-icon" href="https://tanjiunhou.github.io/week8/Assignment/Homepage.html">
-                    <img alt="PlanetSide 2" id="top-left-images"
-                        src="images/logo-lg.png">
+                    <img alt="PlanetSide 2" id="top-left-images" src="images/logo-lg.png">
                 </a>
             </div>
             <div class="topnav" id="myTopnav">
@@ -538,7 +547,9 @@
                             src="images/png-transparent-v-shaped-gray-illustration-menu-arrow-icon-down-arrow-angle-web-design-rectangle-removebg-preview.png">
                         <div class="dropdown-content">
                             <p class="paragraph-left">
-                                The swift Mosquito is by far Auraxis’ fastest vehicle. Its untouchable top speed allows it to shake enemies in dogfights, as well as perform devastating air-to-ground assaults before the enemy can react.
+                                The swift Mosquito is by far Auraxis’ fastest vehicle. Its untouchable top speed allows
+                                it to shake enemies in dogfights, as well as perform devastating air-to-ground assaults
+                                before the enemy can react.
                             </p>
                         </div>
                     </div>
@@ -553,7 +564,9 @@
                             src="images/png-transparent-v-shaped-gray-illustration-menu-arrow-icon-down-arrow-angle-web-design-rectangle-removebg-preview.png">
                         <div class="dropdown-content">
                             <p class="paragraph-left">
-                                The Prowler’s high top speed and maneuverability allow it to run circles around other tanks in its class. It features powerful twin 120mm cannons and a passenger-operated 20mm machine gun.
+                                The Prowler’s high top speed and maneuverability allow it to run circles around other
+                                tanks in its class. It features powerful twin 120mm cannons and a passenger-operated
+                                20mm machine gun.
                             </p>
                         </div>
                     </div>
@@ -580,7 +593,9 @@
                             src="images/png-transparent-v-shaped-gray-illustration-menu-arrow-icon-down-arrow-angle-web-design-rectangle-removebg-preview.png">
                         <div class="dropdown-content">
                             <p class="paragraph-left">
-                                The New Conglomerate’s Reaver possesses the heaviest armor and hardest hitting weaponry out of all of Auraxis’ interceptor aircraft. This heavy aircraft can execute and survive dangerous strafing runs that leave only burning wreckage behind.
+                                The New Conglomerate’s Reaver possesses the heaviest armor and hardest hitting weaponry
+                                out of all of Auraxis’ interceptor aircraft. This heavy aircraft can execute and survive
+                                dangerous strafing runs that leave only burning wreckage behind.
                             </p>
                         </div>
                     </div>
@@ -595,7 +610,9 @@
                             src="images/png-transparent-v-shaped-gray-illustration-menu-arrow-icon-down-arrow-angle-web-design-rectangle-removebg-preview.png">
                         <div class="dropdown-content">
                             <p class="paragraph-left">
-                                By far the heaviest ground vehicle on Auraxis, the mighty Vanguard boasts an unparalleled 150mm cannon that can punch through the thickest of vehicle plating. It also features a passenger-operated 20mm machinegun for dealing with nearby infantry.
+                                By far the heaviest ground vehicle on Auraxis, the mighty Vanguard boasts an
+                                unparalleled 150mm cannon that can punch through the thickest of vehicle plating. It
+                                also features a passenger-operated 20mm machinegun for dealing with nearby infantry.
                             </p>
                         </div>
                     </div>
@@ -622,7 +639,10 @@
                             src="images/png-transparent-v-shaped-gray-illustration-menu-arrow-icon-down-arrow-angle-web-design-rectangle-removebg-preview.png">
                         <div class="dropdown-content">
                             <p class="paragraph-left">
-                                The Scythe’s incredible agility allows it to perform aerial feats that put other aircraft to shame. Equipped with powerful plasma-based weaponry and the ability to effortlessly pull off loops and barrel rolls, a good Scythe pilot is a formidable opponent.
+                                The Scythe’s incredible agility allows it to perform aerial feats that put other
+                                aircraft to shame. Equipped with powerful plasma-based weaponry and the ability to
+                                effortlessly pull off loops and barrel rolls, a good Scythe pilot is a formidable
+                                opponent.
                             </p>
                         </div>
                     </div>
@@ -637,7 +657,10 @@
                             src="images/png-transparent-v-shaped-gray-illustration-menu-arrow-icon-down-arrow-angle-web-design-rectangle-removebg-preview.png">
                         <div class="dropdown-content">
                             <p class="paragraph-left">
-                                The levitating Magrider tank’s thrust engines allow it to move dodge projectiles laterally and drive over low obstacles. The forward-facing Plasma Cannon can melt through enemy armor, and the passenger-operated 20mm machinegun can quickly dispatch aircraft and infantry.
+                                The levitating Magrider tank’s thrust engines allow it to move dodge projectiles
+                                laterally and drive over low obstacles. The forward-facing Plasma Cannon can melt
+                                through enemy armor, and the passenger-operated 20mm machinegun can quickly dispatch
+                                aircraft and infantry.
                             </p>
                         </div>
                     </div>
@@ -655,10 +678,14 @@
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
-                x.className += " responsive";
+                document.getElementById("myNav").style.width = "100%";
             } else {
                 x.className = "topnav";
             }
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
         }
     </script>
 </body>

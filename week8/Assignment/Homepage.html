@@ -14,6 +14,16 @@
 
 <body>
     <div class="container">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="https://tanjiunhou.github.io/week8/Assignment/about.html">About</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/faction.html">Faction</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/map.html">Map</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/game-detail.html">Game Detail</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/contact-us.html">Contact Us</a>
+            </div>
+        </div>
         <div class="topbar" id="top">
             <div class="topbar-left-icon">
                 <a class="left-icon" href="https://tanjiunhou.github.io/week8/Assignment/Homepage.html">
@@ -143,10 +153,14 @@
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
-                x.className += " responsive";
+                document.getElementById("myNav").style.width = "100%";
             } else {
                 x.className = "topnav";
             }
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
         }
     </script>
 

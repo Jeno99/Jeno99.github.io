@@ -14,11 +14,20 @@
 
 <body>
     <div class="container">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="https://tanjiunhou.github.io/week8/Assignment/about.html">About</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/faction.html">Faction</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/map.html">Map</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/game-detail.html">Game Detail</a>
+                <a href="https://tanjiunhou.github.io/week8/Assignment/contact-us.html">Contact Us</a>
+            </div>
+        </div>
         <div class="topbar" id="top">
             <div class="topbar-left-icon">
                 <a class="left-icon" href="https://tanjiunhou.github.io/week8/Assignment/Homepage.html">
-                    <img alt="PlanetSide 2" id="top-left-images"
-                        src="images/logo-lg.png">
+                    <img alt="PlanetSide 2" id="top-left-images" src="images/logo-lg.png">
                 </a>
             </div>
             <div class="topnav" id="myTopnav">
@@ -98,7 +107,10 @@
             <p class="tittle-left">Vanu Sovereignty</p>
             <div class="faction-part-3-paragraph">
                 <p class="paragraph-left">
-                    Vanu has taught that only through technology can humanity evolve it's next state of existence. The Vanu Sovereignty is extremely advanced, employing powerful alien technology on the battlefield. Their singular purpose is to uncover the secrets hidden away in ancient artifacts scattered over the surface of Auraxis and they will annihilate anyone who interferes.
+                    Vanu has taught that only through technology can humanity evolve it's next state of existence. The
+                    Vanu Sovereignty is extremely advanced, employing powerful alien technology on the battlefield.
+                    Their singular purpose is to uncover the secrets hidden away in ancient artifacts scattered over the
+                    surface of Auraxis and they will annihilate anyone who interferes.
                 </p><br>
                 <div class="faction-video">
                     <video controls width="50%" height="50%">
@@ -120,12 +132,17 @@
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
-                x.className += " responsive";
+                document.getElementById("myNav").style.width = "100%";
             } else {
                 x.className = "topnav";
             }
         }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
     </script>
+
 </body>
 
 </html>
