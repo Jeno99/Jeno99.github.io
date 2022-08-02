@@ -39,6 +39,14 @@
     background-color: #00D285;
 }
 
+.bg-color-white-transperent {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+}
+
+
 /* Font Size(desktop) */
 .p-large {
     font-size: 80px;
@@ -52,6 +60,190 @@
     font-size: 24px;
 }
 
+.button-1{
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.whole-size{
+  max-width: 1920px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Covid Page */
+
+.dp-flex{
+    display: flex;
+    align-items: center;
+}
+
+.shadow{
+    box-shadow: 5px 5px;
+}
+
+.bg-gap{
+    padding: 30px;
+}
+
+/* Covid 19 Page 1 */
+.background-covid-19-1{
+    width: 100%;
+}
+
+.img-size{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.img-size-2{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+#Bio-button{
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#map-card-size{
+    width: 28rem;
+}
+
+.covid-bg-images-2{
+    background-image: url(../img/istockphoto-1308624310-170667a.jpg);
+    background-size: cover;
+}
+
+.DIR-figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      'a b c';
+    background-color: white;
+    border-style: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+  }
+.dead-box{
+    grid-area: a;
+    border-style: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+}
+
+.infection-box{
+    grid-area: b;
+    border-style: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+}
+
+.region-box{
+    grid-area: c;
+    border-style: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #4BA5F8;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.box-inside {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.box-inside::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: white;
+    border: 4px solid #4BA5F8;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+.left-box {
+    left: 0;
+}
+
+.right-box {
+    left: 50%;
+}
+
+.left-box::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.right-box::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.right-box::after {
+    left: -13px;
+}
+
+.content {
+    padding-bottom: 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+
 @media screen and (max-width: 900px) {
 
     /* Font Size(tablet) */
@@ -63,6 +255,56 @@
         font-size: 40px;
     }
 
+    .dp-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #china-wuhan-map{
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .DIR-figure {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          'a' 
+          'b' 
+          'c';
+        background-color: white;
+        border-style: solid;
+        border-color: #00239E;
+        border-radius: 5px;
+    }
+
+    .timeline::after {
+        left: 31px;
+      }
+    
+
+      .box-inside {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+      }
+    
+      .box-inside::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+      }
+    
+      .left-box::after, .right-box::after {
+        left: 15px;
+      }
+    
+      .right-box {
+        left: 0%;
+      } 
 }
 
 @media screen and (max-width: 450px) {
@@ -78,5 +320,14 @@
 
     .p-small {
         font-size: 20px;
+    }
+
+    .dp-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #map-card-size{
+        width: 18rem;
     }
 }

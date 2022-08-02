@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=devie-width, initial-scale=1.0">
     <title>Deimos - Covid 19- Page 1</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/icon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
@@ -13,7 +13,103 @@
 </head>
 
 <body>
+    <div class="whole-size">
+        <div class="bg-color-blue dp-flex justify-content-around bg-gap">
+            <div>
+                <p class="p-regular">First Case Discovered</p>
+                <p class="p-small">According to the WHO the first case of Covid-19 was discovered from Wuhan, China, on
+                    31 December 2019.</p>
+                <img id="china-wuhan-map" src="img/China-wuhan-removebg-preview.png">
+            </div>
+            <div>
+                <div class="card shadow" id="map-card-size">
+                    <div class="bg-color-lightblue">
+                        <img src="img/covid-19-removebg-preview.png" class="img-size" alt="Covid-19">
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="p-regular">Covid-19</p>
+                        <p class="p-small">Covid-19 is a new airbone disease of the respiratory tract, caused by a novel
+                            (or new) that has not previously been seen in human.</p>
+                        <button type="button" class="bg-color-lightblue p-small" id="Bio-button" data-bs-toggle="modal"
+                            data-bs-target="#biomodal">Biosafety Level
+                            3<br>(BSL-3)</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gap covid-bg-images-2">
+            <div class="DIR-figure shadow">
+                <div class="dead-box">
+                    <img src="img/death-removebg-preview.png" class="img-size" alt="Death">
+                    <p class="p-regular text-center">Death</p>
+                    <p class="p-regular">6.38 milion ++</p>
+                </div>
+                <div class="infection-box">
+                    <img src="img/biohazard-removebg-preview.png" class="img-size" alt="Infection">
+                    <p class="p-regular text-center">Infection</p>
+                    <p class="p-regular">569 million ++</p>
+                </div>
+                <div class="region-box">
+                    <img src="img/region-removebg-preview.png" class="img-size" alt="Region">
+                    <p class="p-regular text-center">Death</p>
+                    <p class="p-regular">228 Countries and Territories</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-color-blue bg-gap">
+            <p class="p-regular">Time Line of Covid-19</p>
+            <div class="bg-gap bg-color-white-transperent">
+                <div class="timeline">
+                    <div class="box-inside left-box">
+                      <div class="content shadow">
+                        <div class="bg-color-lightblue">
+                        <img src="img/timeline1-removebg-preview.png" class="img-size-2">
+                        </div>
+                        <p class="p-regular text-center">8 Dec 2019</p>
+                        <p class="p-small text-center">A 55-year-old individual from China may have been the first person to have contracted COVID-19</p>
+                      </div>
+                    </div>
+                    <div class="box-inside right-box">
+                      <div class="content shadow">
+                        <div class="bg-color-lightblue">
+                            <img src="img/timeline2-removebg-preview.png" class="img-size-2">
+                            </div>
+                            <p class="p-regular text-center">31 Dec 2019</p>
+                            <p class="p-small text-center">China alerts WHO about several pneumonia cases</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
 
+        <!--Modal-->
+        <div class="modal fade" id="biomodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="p-regular" id="exampleModalLabel">Biosafety Level?</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <u1>
+                            <li><a class="p-small" target="_blank" href="https://en.wikipedia.org/wiki/Biosafety_level">English</a></li>
+                            <li><a class="p-small" target="_blank" href="https://zh.m.wikipedia.org/zh-my/%E7%94%9F%E7%89%A9%E5%AE%89%E5%85%A8%E7%AD%89%E7%B4%9A">Chinese</a></li>
+                        </u1>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
