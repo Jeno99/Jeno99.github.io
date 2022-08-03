@@ -270,6 +270,128 @@ background-image: url('../img/cleveland-clinic-covid19-illustration-logo-2-scale
     margin-top: 10px;
 }
 
+/* Ebola */
+
+.bg-image {
+    background-image: url(../img/ebola\ poster.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.topimage {
+    padding: 140px 0 60px 0;
+    min-height: 30vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topimage:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    inset: 0;
+}
+
+.topimage h2 {
+    font-weight: 500;
+    color: #fff;
+}
+
+.topimage ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.topimage ol a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.3s;
+}
+
+.topimage ol a:hover {
+    text-decoration: underline;
+}
+
+.topimage ol li+li {
+    padding-left: 10px;
+}
+
+.topimage ol li+li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #fff;
+    content: "/";
+}
+
+.decoration {
+    text-decoration: none;
+}
+
+.text-lblue {
+    color: #82cbed;
+}
+
+.intro .content h3 {
+    font-weight: 400;
+}
+
+.section-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-header h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-header h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #69D2E7;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.transmission .image-wrap {
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+
+.transmission .image-wrap img {
+    width: 100%;
+}
+
+.transmission .details {
+    margin-top: 10px;
+    padding: 30px 0;
+    background-color: #f7f9fc;
+}
+
+.icon-size {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-size2 {
+    width: 100px;
+    height: 100px;
+}
+
 
 /* Covid Page */
 
@@ -830,6 +952,19 @@ background-image: url('../img/cleveland-clinic-covid19-illustration-logo-2-scale
 
 }
 
+@media screen and (max-width: 1300px) {
+
+    .transmission .image-wrap {
+        position: relative;
+        top: 0;
+    }
+
+    .transmission .image-wrap img {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 576px) {
 
@@ -888,20 +1023,38 @@ background-image: url('../img/cleveland-clinic-covid19-illustration-logo-2-scale
         height: 900px;
 
     }
+
     .topic{
     width: 100%;
     }
+
     .contributorss{
     display: flex;
     flex-direction: column;
     }
+
     .button2{
     width: 200px;
     }
-.contributorss{
+
+    .contributorss{
     justify-content: center;
     display: flex;
     align-items: center;
+    }
+
+    .transmission .details {
+        margin-top: 0;
+        padding: 50px 0;
+    }
+
+    .transmission .image-wrap img {
+        width: 100%;
+    }
+
+    .transmission .image-wrap {
+        position: relative;
+        top: 0;
     }
     
 }
