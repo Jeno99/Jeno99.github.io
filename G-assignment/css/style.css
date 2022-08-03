@@ -454,6 +454,78 @@ background-image: url('../img/cleveland-clinic-covid19-illustration-logo-2-scale
     background-image: url(../img/hiv\ treatment\ for\ all\ edited.jpg);
 }
 
+/* H1N1 */
+#h1n1_main_page {
+    background-color: #A39E9E;
+
+}
+
+
+#h1n1_main_img {
+    border-radius: 50%;
+}
+
+.test_color {
+    background-color: aliceblue;
+}
+
+.h1n1_main_img_leftbottom {
+    max-width: 60px;
+}
+
+.H1N1_content_bg_color {
+    background-color: #444242;
+}
+
+
+.H1N1_content_word_red {
+    color: #FF0000;
+}
+
+.H1N1_Virus_Transmission {
+    color: #5B0808;
+}
+
+.h1n1_main_page_content_time,
+.h1n1_main_page_content_bird,
+.H1N1_resource {
+    display: flex;
+}
+
+.h1n1_main_page_content_time_title {
+    width: 25%;
+}
+
+.h1n1_main_page_content_time_word,
+.h1n1_main_page_content_bird_word {
+    width: 75%;
+}
+
+.H1N1_resource_title_box {
+    margin-top: 3%;
+    width: 33%;
+    padding: 1.5rem;
+}
+
+.H1N1_resource_title {
+    padding-top: 3rem;
+}
+
+.H1N1_resource_content_box {
+    display: flex;
+    width: 66%;
+}
+
+.H1N1_resource_content {
+    width: 50%;
+    padding-top: 3rem;
+}
+
+.H1N1_resource_content_img {
+    margin-top: 0%;
+
+}
+
 /* Footer */
 .footer .footer-content {
     background-color: #161D26;
@@ -712,6 +784,71 @@ background-image: url('../img/cleveland-clinic-covid19-illustration-logo-2-scale
         text-align: center;
         float: right;
     }
+}
+
+@media screen and (max-width: 768px) {
+
+    .h1n1_main_img_leftbottom {
+        max-width: 45px;
+    }
+
+    .h1n1_main_page_content_time,
+    .H1N1_resource {
+        display: block;
+    }
+
+    .h1n1_main_page_content_time_title,
+    .h1n1_main_page_content_time_word,
+    .h1n1_main_page_content_bird_word,
+    .H1N1_resource_title_box,
+    .H1N1_resource_content_box {
+        width: 100%;
+    }
+
+    .h1n1_main_page_content_bird {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .h1n1_main_page_content_bird_word {
+        margin-right: 0;
+    }
+
+    .H1N1_resource_title_box {
+        margin-top: 0%;
+    }
+
+    .H1N1_resource_content,
+    .H1N1_resource_title {
+        padding-top: 0;
+    }
+
+
+    .H1N1_resource_content_img {
+        margin-top: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .h1n1_main_img_leftbottom {
+        max-width: 20px;
+    }
+
+    .H1N1_resource_content_box {
+        display: block;
+    }
+
+    .H1N1_resource_content {
+        width: 100%;
+    }
+
+    .h1n1_main_page_content_time_title img {
+        max-width: 60px;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
