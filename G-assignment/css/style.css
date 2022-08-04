@@ -50,18 +50,22 @@
 /* Font Size(desktop) */
 .p-header{
     font-size: 24px;
+    font-family: 'Inter', sans-serif;
 }
 
 .p-large {
     font-size: 80px;
+    font-family: 'Inter', sans-serif;
 }
 
 .p-regular {
     font-size: 50px;
+    font-family: 'Inter', sans-serif;
 }
 
 .p-small {
     font-size: 24px;
+    font-family: 'Inter', sans-serif;
 }
 
 .button-1{
@@ -160,14 +164,14 @@ background-image: url('../img/cleveland-clinic-covid19-illustration-logo-2-scale
     font-size: 50px;
     font-weight: 500;
     color: #fff;
-    font-family: var(--font-secondary);
+    font-family: 'Inter', sans-serif;
 }
 
 .breadcrumbs h1 {
     font-size: 50px;
     font-weight: 500;
     color: #fff;
-    font-family: var(--font-secondary);
+    font-family: 'Inter', sans-serif;
 }
 
 .paddingtop{
@@ -193,13 +197,13 @@ background-image: url('../img/cleveland-clinic-covid19-illustration-logo-2-scale
     font-size: 24px;
     font-weight: 500;
     color: rgb(0, 0, 0);
-    font-family: var(--font-secondary);
+    font-family: 'Inter', sans-serif;
   }
   .breadcrumbs2 h1 {
     font-size: 50px;
     font-weight: 500;
     color: rgb(0, 0, 0);
-    font-family: var(--font-secondary);
+    font-family: 'Inter', sans-serif;
 }
   .breadcrumbsin{
     width: 600px;
