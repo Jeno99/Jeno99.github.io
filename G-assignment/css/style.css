@@ -105,6 +105,7 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+
 .about{
     display: flex;
     flex-direction: row;
@@ -1061,4 +1062,7 @@ background-image: url('../img/cleveland-clinic-covid19-illustration-logo-2-scale
         top: 0;
     }
     
+    .display-none{
+        display: none;
+    }
 }
