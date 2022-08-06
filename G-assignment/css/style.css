@@ -101,11 +101,34 @@ font{
     padding-bottom:50px
 }
 
+/* H1N1 */
+.bg-image-h1n1{
+    background-image: url(../img/H1N1_main.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.topimage ol {
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.3s;
+}
+
+
+.color-lightgrey {
+    color: #D5DEFC;
+}
+
 /* Ebola page 1*/
 body,
 html {
     margin: auto;
     max-width: 1920px;
+    height: 100%;
+}
+
+.bg-image-ebola{
+    background-image: url(../img/ebola\ poster.jpg);
+    width: 100%;
     height: 100%;
 }
 
