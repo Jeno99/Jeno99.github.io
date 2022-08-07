@@ -675,10 +675,6 @@ html {
         text-align: center;
         float: right;
     }
-    .contributor {
-        width: 150px;
-        height: 200px;
-    }
 
     .bgimg3 {
         height: 900px;
@@ -1179,7 +1175,7 @@ html {
 
     .contributor {
         width: 150px;
-        height: 200px;
+        height: 150px;
     }
 
     .bgimg3 {
