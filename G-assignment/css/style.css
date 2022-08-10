@@ -889,10 +889,6 @@ html {
 
     }
 
-    .textcenter {
-        text-align: center;
-        float: right;
-    }
 
     .bgimg3 {
         height: 900px;
@@ -996,16 +992,15 @@ html {
         float: right;
     }
 
-    .textcenter {
-        text-align: center;
-        float: right;
-    }
-
     .img-center{
         display: block;
         margin-left: auto;
         margin-right: auto;
         padding: 15px;
+    }
+
+    .words-center{
+        text-align: center;
     }
 }
 
