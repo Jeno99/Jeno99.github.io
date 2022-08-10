@@ -42,8 +42,7 @@
                     <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-between">
                             <li class="nav-item p-header">
-                                <a class="nav-link text-white" aria-current="page"
-                                    href="index.html">Home</a>
+                                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item p-header">
                                 <a class="nav-link text-white" href="#">About</a>
@@ -54,16 +53,18 @@
                                     Viruses
                                 </a>
                                 <ul class="dropdown-menu active text-white">
-                                    <li><a class="dropdown-item p-header"
-                                            href="covid-19-pg-1.html">Covid-19
+                                    <li><a class="dropdown-item p-header" data-bs-toggle="modal"
+                                            data-bs-target="#covid">Covid-19
                                         </a></li>
-                                    <li><a class="dropdown-item p-header"
-                                            href="HIV-pg-1.html">HIV </a></li>
-                                    <li><a class="dropdown-item active p-header"
-                                            href="ebola1.html">Ebola </a></li>
-                                    <li><a class="dropdown-item p-header"
-                                            href="H1N1_menu.html">H1N1 </a>
-                                    </li>
+                                    <li><a class="dropdown-item p-header" data-bs-toggle="modal"
+                                            data-bs-target="#hiv">HIV
+                                        </a></li>
+                                    <li><a class="dropdown-item p-header" data-bs-toggle="modal"
+                                            data-bs-target="#ebola">Ebola
+                                        </a></li>
+                                    <li><a class="dropdown-item p-header" data-bs-toggle="modal"
+                                            data-bs-target="#h1n1">H1N1
+                                        </a></li>
                                 </ul>
                             </li>
                             <li class="nav-item p-header">
@@ -88,8 +89,8 @@
         </div><br><br><br>
 
         <!--H1N1 Structure-->
-        <section id="features" class="features">
-            <div class="container aos-init aos-animate" data-aos="fade-up">
+        <section id="features" class="features" data-aos="fade-up">
+            <div class="container aos-init aos-animate">
                 <div class="section-header">
                     <h2 class="p-regular">H1N1 Structure</h2>
                 </div>
@@ -126,8 +127,8 @@
         <br><br><br>
 
         <!--H1N1 Symptoms-->
-        <section id="about" class="about bg-color-lightblue">
-            <div class="container">
+        <section id="about" class="about bg-color-lightblue" data-aos="fade-up">
+            <div class="container" ata-aos="fade-up">
                 <div class="section-header">
                     <h2 class="p-regular">H1N1 Symptoms</h2>
                 </div>
@@ -141,24 +142,28 @@
                         <div class="row gy-4 bg-color-green">
                             <div class="col-lg-3 ">
                                 <ul class="nav nav-tabs flex-column " role="tablist">
-                                    <li class="nav-item" role="presentation"> <a class="nav-link show active h1n1_color_tablist"
-                                            data-bs-toggle="tab" href="#tab-1" aria-selected="true"
-                                            role="tab">Different</a>
+                                    <li class="nav-item" role="presentation"> <a
+                                            class="nav-link show active h1n1_color_tablist" data-bs-toggle="tab"
+                                            href="#tab-1" aria-selected="true" role="tab">Different</a>
                                     </li>
-                                    <li class="nav-item" role="presentation"> <a class="nav-link h1n1_color_tablist" data-bs-toggle="tab"
-                                            href="#tab-2" aria-selected="false" role="tab" tabindex="-1">Contact with
+                                    <li class="nav-item" role="presentation"> <a class="nav-link h1n1_color_tablist"
+                                            data-bs-toggle="tab" href="#tab-2" aria-selected="false" role="tab"
+                                            tabindex="-1">Contact with
                                             confirmed cases</a>
                                     </li>
-                                    <li class="nav-item" role="presentation"> <a class="nav-link h1n1_color_tablist" data-bs-toggle="tab"
-                                            href="#tab-3" aria-selected="false" role="tab" tabindex="-1">How do know
+                                    <li class="nav-item" role="presentation"> <a class="nav-link h1n1_color_tablist"
+                                            data-bs-toggle="tab" href="#tab-3" aria-selected="false" role="tab"
+                                            tabindex="-1">How do know
                                             have H1N1</a>
                                     </li>
-                                    <li class="nav-item" role="presentation"> <a class="nav-link h1n1_color_tablist" data-bs-toggle="tab"
-                                            href="#tab-4" aria-selected="false" role="tab" tabindex="-1">How does H1N1
+                                    <li class="nav-item" role="presentation"> <a class="nav-link h1n1_color_tablist"
+                                            data-bs-toggle="tab" href="#tab-4" aria-selected="false" role="tab"
+                                            tabindex="-1">How does H1N1
                                             spread</a>
                                     </li>
-                                    <li class="nav-item" role="presentation"> <a class="nav-link h1n1_color_tablist" data-bs-toggle="tab"
-                                            href="#tab-5" aria-selected="false" role="tab" tabindex="-1">Why called
+                                    <li class="nav-item" role="presentation"> <a class="nav-link h1n1_color_tablist"
+                                            data-bs-toggle="tab" href="#tab-5" aria-selected="false" role="tab"
+                                            tabindex="-1">Why called
                                             “swine flu”?</a>
                                     </li>
                                 </ul>
@@ -294,13 +299,122 @@
                                         width="150px" button="" type="button" class="btn"></a>
                                 <a href="https://www.mayoclinic.org/diseases-conditions/swine-flu/diagnosis-treatment/drc-20378106"
                                     target="_blank" data-bs-toggle="tooltip" title="External Resource"><img
-                                        src="img/mayo-clinic-logo-B495237393-seeklogo.com.png" width="150px" button="" type="button"
-                                        class="btn"></a>
+                                        src="img/mayo-clinic-logo-B495237393-seeklogo.com.png" width="150px" button=""
+                                        type="button" class="btn"></a>
                             </p>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="cta-btn p-small text-center nondecorate" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="cta-btn p-small text-center nondecorate"
+                                data-bs-dismiss="modal">Close</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="covid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="covidModalLabel">Covid-19</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="text-white">
+                            <li>
+                                <a class="p-header" href="covid-19-pg-1.html">Page 1</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="covid-19-pg-2.html">Page 2</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="#">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="hiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="hivModalLabel">HIV</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="text-white">
+                            <li>
+                                <a class="p-header" href="HIV1.html">Page 1</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="HIV2.html">Page 2</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="#">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ebola" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ebolaModalLabel">Ebola</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="text-white">
+                            <li>
+                                <a class="p-header" href="ebola1.html">Page 1</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="ebola-p2.html">Page 2</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="ebola-p3.html">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="h1n1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="H1N1ModalLabel">H1N1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="text-white">
+                            <li>
+                                <a class="p-header" href="H1N1_menu.html">Page 1</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="H1N1_page2.html">Page 2</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="#">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="p-small btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>

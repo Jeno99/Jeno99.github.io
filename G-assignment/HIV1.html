@@ -50,16 +50,18 @@
                                     Viruses
                                 </a>
                                 <ul class="dropdown-menu active text-white">
-                                    <li><a class="dropdown-item p-header"
-                                            href="covid-19-pg-1.html">Covid-19
+                                    <li><a class="dropdown-item p-header" data-bs-toggle="modal"
+                                            data-bs-target="#covid">Covid-19
                                         </a></li>
-                                    <li><a class="dropdown-item p-header"
-                                            href="HIV1.html">HIV </a></li>
-                                    <li><a class="dropdown-item p-header"
-                                            href="ebola1.html">Ebola </a></li>
-                                    <li><a class="dropdown-item p-header"
-                                            href="H1N1_menu.html">H1N1 </a>
-                                    </li>
+                                    <li><a class="dropdown-item p-header" data-bs-toggle="modal"
+                                            data-bs-target="#hiv">HIV
+                                        </a></li>
+                                    <li><a class="dropdown-item p-header" data-bs-toggle="modal"
+                                            data-bs-target="#ebola">Ebola
+                                        </a></li>
+                                    <li><a class="dropdown-item p-header" data-bs-toggle="modal"
+                                            data-bs-target="#h1n1">H1N1
+                                        </a></li>
                                 </ul>
                             </li>
                             <li class="nav-item p-header">
@@ -288,11 +290,115 @@
         </section><br><br>
 
         <!--Button Below-->
-        <center>
-            <div class="text-center">
-                <a href="HIV2.html"><button type="button" class="cta-btn button1 p-small text-center nondecorate">Next</button></a><br><br>
+
+         <!-- Modal -->
+         <div class="modal fade" id="covid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="covidModalLabel">Covid-19</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="text-white">
+                            <li>
+                                <a class="p-header" href="covid-19-pg-1.html">Page 1</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="covid-19-pg-2.html">Page 2</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="#">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
-        </center>
+        </div>
+
+        <div class="modal fade" id="hiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="hivModalLabel">HIV</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="text-white">
+                            <li>
+                                <a class="p-header" href="HIV1.html">Page 1</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="HIV2.html">Page 2</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="#">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ebola" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ebolaModalLabel">Ebola</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="text-white">
+                            <li>
+                                <a class="p-header" href="ebola1.html">Page 1</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="ebola-p2.html">Page 2</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="ebola-p3.html">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="h1n1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="H1N1ModalLabel">H1N1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="text-white">
+                            <li>
+                                <a class="p-header" href="H1N1_menu.html">Page 1</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="H1N1_page2.html">Page 2</a>
+                            </li>
+                            <li>
+                                <a class="p-header" href="#">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!--Footer-->
         <footer class="footer footercolor">
