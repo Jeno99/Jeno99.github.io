@@ -14,6 +14,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="aos/aos.css" rel="stylesheet">
+    <link href="glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="swiper/swiper-bundle.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,8 +37,7 @@
                     <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-between">
                             <li class="nav-item p-header">
-                                <a class="nav-link text-white" aria-current="page"
-                                    href="index.html">Home</a>
+                                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item p-header">
                                 <a class="nav-link text-white" href="#">About</a>
@@ -45,15 +48,11 @@
                                     Viruses
                                 </a>
                                 <ul class="dropdown-menu active text-white">
-                                    <li><a class="dropdown-item p-header"
-                                            href="covid-19-pg-1.html">Covid-19
+                                    <li><a class="dropdown-item p-header" href="covid-19-pg-1.html">Covid-19
                                         </a></li>
-                                    <li><a class="dropdown-item p-header"
-                                            href="HIV1.html">HIV </a></li>
-                                    <li><a class="dropdown-item p-header"
-                                            href="ebola1.html">Ebola </a></li>
-                                    <li><a class="dropdown-item p-header"
-                                            href="H1N1_menu.html">H1N1 </a>
+                                    <li><a class="dropdown-item p-header" href="HIV1.html">HIV </a></li>
+                                    <li><a class="dropdown-item p-header" href="ebola1.html">Ebola </a></li>
+                                    <li><a class="dropdown-item p-header" href="H1N1_menu.html">H1N1 </a>
                                     </li>
                                 </ul>
                             </li>
@@ -519,7 +518,10 @@
         const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
         const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
     </script>
-
+    <script src="aos/aos.js"></script>
+    <script src="glightbox/js/glightbox.min.js"></script>
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
