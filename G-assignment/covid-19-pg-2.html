@@ -204,10 +204,15 @@
                             </div>
                         </div>
                         <div class="col-lg-4 text-center">
-                            <img src="img/Structure(Covid).jpg" class="img-fluid" alt="">
+                            <img src="img/Structure(Covid).jpg" class="img-fluid" id="Covid-Structure" alt="Covid-19 Structure">
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id="CovidModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="imgCovid">
+                <div id="caption"></div>
             </div>
         </section><br><br><br>
 
@@ -294,6 +299,24 @@
     <script src="glightbox/js/glightbox.min.js"></script>
     <script src="swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        var modal = document.getElementById("CovidModal");
+        
+        var img = document.getElementById("Covid-Structure");
+        var modalImg = document.getElementById("imgCovid");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        var span = document.getElementsByClassName("close")[0];
+        
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    </script>
 
 </body>
 
