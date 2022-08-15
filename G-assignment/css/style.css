@@ -522,11 +522,11 @@ html {
 /* Covid-19 */
 .background-covid-19-1{
     width: 100%;
-    background-image: url(../img/Covid_1662021.jpg);
+    background-image: url(../img/Background1\(Covid\).jpg);
 }
 
 .bg-image-covid-2{
-    background-image: url(../img/ImageForNews_717031_16554339473956755.jpg);
+    background-image: url(../img/Background2\(Covid\).jpg);
     width: 100%;
     height: 100%;
 }
@@ -661,6 +661,11 @@ html {
     padding-bottom: 25px;
 }
 
+.fullimg{
+    width: 100%;
+    height: 100%;
+}
+
 .symptoms-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -726,6 +731,67 @@ html {
     grid-area: s11;
     background-color: white;
 }
+
+.covid-medical{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'ol ve';
+    gap:25px;
+}
+
+.olumiant{
+    grid-area: ol;
+    background-color: white;
+    border-style: solid;
+    border-color: #161D26;
+}
+
+.veklury{
+    grid-area: ve;
+    background-color: white;
+    border-style: solid;
+    border-color: #161D26;
+}
+
+.prevent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      'p1 p2 p3'
+      'p4 p5 p6'
+      'p7 p8 p9';
+    gap:25px;
+}
+
+.pre-1{
+    grid-area: p1;
+}
+.pre-2{
+    grid-area: p2;
+}
+.pre-3{
+    grid-area: p3;
+}
+.pre-4{
+    grid-area: p4;
+}
+.pre-5{
+    grid-area: p5;
+}
+.pre-6{
+    grid-area: p6;
+}
+.pre-7{
+    grid-area: p7;
+}
+.pre-8{
+    grid-area: p8;
+}
+.pre-9{
+    grid-area: p9;
+}
+
 /*H1N1 pg 1*/
 .bg-image-h1n1{
     background-image: url(../img/H1N1_main.jpg);
@@ -816,6 +882,26 @@ html {
     gap:10px;
   }
 
+  .covid-medical{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'ol'
+      've';
+    gap:25px;
+}
+
+.prevent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      'p1 p1 p2 p2'
+      'p3 p3 p4 p4'
+      'p5 p5 p6 p6'
+      'p7 p7 p8 p8'
+      '. p9 p9 .';
+    gap:25px;
+}
 
     /* Font Size(tablet) */
     .p-large {
@@ -1086,6 +1172,22 @@ html {
           's11';
         gap:25px;
       }
+
+      .prevent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          'p1'
+          'p2'
+          'p3'
+          'p4'
+          'p5'
+          'p6'
+          'p7'
+          'p8'
+          'p9';
+        gap:25px;
+    }
 }
 
 
