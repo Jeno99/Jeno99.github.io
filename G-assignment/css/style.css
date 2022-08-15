@@ -814,6 +814,10 @@ html {
     color: #161D26;
 }
 
+.button-end{
+    text-align: end;
+}
+
 @media screen and (max-width: 1300px) {
 
     .transmission .image-wrap {
@@ -1089,6 +1093,10 @@ html {
     }
 
     .words-center{
+        text-align: center;
+    }
+
+    .button-center{
         text-align: center;
     }
 }
