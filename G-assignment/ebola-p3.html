@@ -4,7 +4,7 @@
 <head>
   <title>Deimos - Ebola - 3</title>
   <link rel="icon" type="image/x-icon"
-    href="img/dd3d3c58-db3d-45f0-957a-f9c341920730.png.200x200_q95_detail_letterbox_upscale-removebg-preview.png">
+    href="img/Main Logo.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/style.css" rel="stylesheet" />
@@ -24,10 +24,9 @@
   <!--Header-->
   <div class="o-container">
     <div class="bgi">
-      <nav class="navbar navbar-expand-lg bg-* fixed-top navbar-expand-md navbar-light bg-faded ">
-        <div class="container thumbimg bugermenu-border2 ">
-          <a class="navbar-brand" href="#"> <img width="50px"
-              src="img/dd3d3c58-db3d-45f0-957a-f9c341920730.png.200x200_q95_detail_letterbox_upscale-removebg-preview.png"></a>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-expand-md navbar-light bg-dark">
+        <div class="container thumbimg  ">
+          <a class="navbar-brand" href="index.html"> <img width="50px" src="img/Deimos-logo.png"></a>
           <div class="bugermenu-border">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -35,32 +34,32 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-          <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse text-white " id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-between">
-              <li class="nav-item p-header">
+              <li class="nav-item p-header ms-5">
                 <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item p-header">
-                <a class="nav-link text-white" href="#">About</a>
+              <li class="nav-item p-header ms-5">
+                <a class="nav-link text-white" href="structure.html">About</a>
               </li>
-              <li class="nav-item dropdown p-header">
-                <a class="text-white nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <li class="nav-item dropdown p-header ms-5">
+                <a class=" nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Viruses
                 </a>
-                <ul class="dropdown-menu active text-white">
-                  <li><a class="dropdown-item p-header" data-bs-toggle="modal" data-bs-target="#covid">Covid-19
+                <ul class="dropdown-menu active ">
+                  <li><a class="dropdown-item p-header" href="covid-19-pg-1.html">Covid-19
                     </a></li>
-                  <li><a class="dropdown-item p-header" data-bs-toggle="modal" data-bs-target="#hiv">HIV
+                  <li><a class="dropdown-item p-header" href="HIV1.html">HIV
                     </a></li>
-                  <li><a class="dropdown-item p-header" data-bs-toggle="modal" data-bs-target="#ebola">Ebola
+                  <li><a class="dropdown-item p-header" href="ebola1.html">Ebola
                     </a></li>
-                  <li><a class="dropdown-item p-header" data-bs-toggle="modal" data-bs-target="#h1n1">H1N1
+                  <li><a class="dropdown-item p-header" href="H1N1_menu.html">H1N1
                     </a></li>
                 </ul>
               </li>
-              <li class="nav-item p-header">
-                <a class="nav-link text-white" href="#">Team</a>
+              <li class="nav-item p-header ms-5">
+                <a class="nav-link text-white" href="contact.html">Team</a>
               </li>
             </ul>
 
@@ -74,7 +73,7 @@
       <div class="container position-relative d-flex flex-column align-items-center">
         <h2 class="p-large">Virus</h2>
         <ol class="p-regular">
-          <li><a href="ebola-p1.html" class="decoration">Ebola</a></li>
+          <li><a href="ebola-p3.html" class="decoration">Ebola</a></li>
           <li class="text-lblue">Treatment</li>
         </ol>
       </div>
@@ -90,8 +89,14 @@
           <p class="p-small">The best way to prevent people from getting infected with Ebola virus is to vaccinate them
             against the virus.</p>
         </div>
-        <div class="card mx-auto">
-          <img class="img-size" src="img/figure-3.jpg" alt="">
+        <div class="text-center">
+          <img id="ebola-img" src="img/figure-3.jpg" alt="Ebola Treatment">
+
+          <div id="myModal" class="ebola-modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div class="p-small" id="ebola-caption"></div>
+          </div>
         </div>
       </div>
     </section><br><br><br>
@@ -108,55 +113,55 @@
             data-aos-delay="100">
             <button type="button" class="btn btn-lg btn-none m-auto" data-bs-toggle="popover" data-bs-placement="top"
               data-bs-content="Avoid direct contact with infected people"><img class="rounded-circle"
-                src="img/avoid.jpg" width="150px" alt=""></button>
+                src="img/avoid.jpg" width="150px" alt="Avoid direct contact"></button>
           </div>
 
           <div class="col-lg-3 col-md-6 service-item d-flex p-small align-items-center" data-aos="fade-up"
             data-aos-delay="200">
             <button type="button" class="btn btn-lg btn-none m-auto" data-bs-toggle="popover" data-bs-placement="top"
               data-bs-content="Don't touch animals. raw meat and dead animals without protection"><img
-                class="rounded-circle" src="img/animals.jpg" width="150px" alt=""></button>
+                class="rounded-circle" src="img/animals.jpg" width="150px" alt="Animals"></button>
           </div>
 
           <div class="col-lg-3 col-md-6 service-item d-flex p-small align-items-center" data-aos="fade-up"
             data-aos-delay="300">
             <button type="button" class="btn btn-lg btn-none m-auto" data-bs-toggle="popover" data-bs-placement="top"
               data-bs-content="Don't touch infected body fluids"><img class="rounded-circle" src="img/fluid.jpg"
-                width="150px" alt=""></button>
+                width="150px" alt="body fliuds"></button>
           </div>
 
           <div class="col-lg-3 col-md-6 service-item d-flex p-small align-items-center" data-aos="fade-up"
             data-aos-delay="400">
             <button type="button" class="btn btn-lg btn-none m-auto" data-bs-toggle="popover" data-bs-placement="top"
               data-bs-content="Don't get in contact with infected dead bodies"><img class="rounded-circle"
-                src="img/dead bodies.jpg" width="150px" alt=""></button>
+                src="img/dead bodies.jpg" width="150px" alt="crops"></button>
           </div>
 
           <div class="col-lg-3 col-md-6 service-item d-flex p-small align-items-center" data-aos="fade-up"
             data-aos-delay="500">
             <button type="button" class="btn btn-lg btn-none m-auto" data-bs-toggle="popover" data-bs-placement="top"
               data-bs-content="Wash hands often with detergent"><img class="rounded-circle" src="img/wash.jpg"
-                width="150px" alt=""></button>
+                width="150px" alt="wash hand"></button>
           </div>
 
           <div class="col-lg-3 col-md-6 service-item d-flex p-small align-items-center" data-aos="fade-up"
             data-aos-delay="600">
             <button type="button" class="btn btn-lg btn-none m-auto" data-bs-toggle="popover" data-bs-placement="top"
               data-bs-content="Disinfect raw food"><img class="rounded-circle" src="img/disinfect.jpg" width="150px"
-                alt=""></button>
+                alt="wash food"></button>
           </div>
 
           <div class="col-lg-3 col-md-6 service-item d-flex p-small align-items-center" data-aos="fade-up"
             data-aos-delay="700">
             <button type="button" class="btn btn-lg btn-none m-auto" data-bs-toggle="popover" data-bs-placement="top"
-              data-bs-content="Boil water"><img class="rounded-circle" src="img/boil.jpg" width="150px" alt=""></button>
+              data-bs-content="Boil water"><img class="rounded-circle" src="img/boil.jpg" width="150px" alt="boilded water"></button>
           </div>
 
           <div class="col-lg-3 col-md-6 service-item d-flex p-small align-items-center" data-aos="fade-up"
             data-aos-delay="800">
             <button type="button" class="btn btn-lg btn-none m-auto" data-bs-toggle="popover" data-bs-placement="top"
               data-bs-content="boil infected people's clothing and belongings using gloves"><img class="rounded-circle"
-                src="img/boil2.jpg" width="150px" alt=""></button>
+                src="img/boil2.jpg" width="150px" alt="boil infected cloth"></button>
           </div>
 
         </div>
@@ -173,10 +178,10 @@
         <div class="container m-auto" data-aos="fade-up">
           <div class="row gy-4" data-aos="fade-up">
             <div class="col-lg-6 text-center">
-              <img src="img/travel1.png" class="img-fluid" alt="">
+              <img src="img/travel1.jpg" class="img-fluid" alt="travel diagram 1">
             </div>
             <div class="col-lg-6 text-center">
-              <img src="img/travel2.png" class="img-fluid" alt="">
+              <img src="img/travel2.jpg" class="img-fluid" alt="travel diagram 2">
             </div>
           </div>
         </div>
@@ -194,19 +199,19 @@
 
           <div class="col-lg-4 col-md-6 service-item d-flex p-small align-items-center ps-3" data-aos="fade-up"
             data-aos-delay="100">
-            <img class="m-auto" src="img/Ebola_infographic-removebg-preview.png" width="100px" alt="">You can't get
+            <img class="m-auto" src="img/Ebola_infographic-removebg-preview.png" width="100px" alt="Warning sign food">You can't get
             Ebola through food
           </div>
 
           <div class="col-lg-4 col-md-6 service-item d-flex p-small align-items-center ps-3" data-aos="fade-up"
             data-aos-delay="200">
-            <img class="m-auto" src="img/Ebola_infographic1-removebg-preview.png" width="100px" alt="">You can't get
+            <img class="m-auto" src="img/Ebola_infographic1-removebg-preview.png" width="100px" alt="Warning sign air">You can't get
             Ebola through air
           </div>
 
           <div class="col-lg-4 col-md-6 service-item d-flex p-small align-items-center ps-3" data-aos="fade-up"
             data-aos-delay="300">
-            <img class="m-auto" src="img/Ebola_infographic2-removebg-preview.png" width="100px" alt="">You can't get
+            <img class="m-auto" src="img/Ebola_infographic2-removebg-preview.png" width="100px" alt="Warning sign water">You can't get
             Ebola through water
           </div>
         </div>
@@ -332,7 +337,7 @@
             <div class="col-lg-4 col-md-12 footer-info ">
               <a href="index.html" class="logo d-flex align-items-center footercenter">
                 <img
-                  src="img/dd3d3c58-db3d-45f0-957a-f9c341920730.png.200x200_q95_detail_letterbox_upscale-removebg-preview.png">
+                  src="img/Main Logo.png">
               </a>
               <div class="col-lg-2 col-6 footer-links  footercenter3">
                 <ul>
@@ -408,6 +413,30 @@
   <script src="glightbox/js/glightbox.min.js"></script>
   <script src="swiper/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("ebola-img");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("ebola-caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+  </script>
+
 </body>
 
 </html>

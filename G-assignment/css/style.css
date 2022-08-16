@@ -62,7 +62,6 @@ font {
 .button1 {
 
     font-weight: 500;
-
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 40px;
@@ -79,6 +78,18 @@ font {
 
 .bugermenu-border2 {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bugermenu-border3 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.margin-center-ebola{
+    margin: auto;
+    margin-top:25px;
+    margin-bottom:25px;
+    width: 200px;
+    height: 200px;
 }
 
 .p-header {
@@ -485,6 +496,89 @@ html {
 .img-size {
     width: 70%;
     margin: auto;
+}
+
+#ebola-img {
+    cursor: pointer;
+    transition: 0.3s;
+    max-width:40%
+    
+}
+
+#ebola-img:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.ebola-modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 912px;
+}
+
+/* Caption of Modal Image */
+#ebola-caption {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 912px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.ebola-modal-content,
+#ebola-caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
 }
 
 
@@ -945,6 +1039,44 @@ html {
     text-align: end;
 }
 
+/* h1n1 prevention*/
+
+.bg-image-h1n1-prevention {
+    background-image: url(../img/h1n1_Prevent_bg.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+
+.Prevention-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        'prevention1 prevention1 prevention2 prevention2 prevention3 prevention3'
+        '. prevention4 prevention4 prevention5 prevention5 .';
+    gap: 25px;
+}
+
+.prevention-box-1 {
+    grid-area: prevention1;
+}
+
+.prevention-box-2 {
+    grid-area: prevention2;
+}
+
+.prevention-box-3 {
+    grid-area: prevention3;
+}
+
+.prevention-box-4 {
+    grid-area: prevention4;
+}
+
+.prevention-box-5 {
+    grid-area: prevention5;
+}
+
 @media screen and (max-width: 1300px) {
 
     .transmission .image-wrap {
@@ -1034,6 +1166,11 @@ html {
             '. p9 p9 .';
         gap: 25px;
     }
+
+    #ebola-img {
+        max-width:60%
+    }
+
 
     /* Font Size(tablet) */
     .p-large {
@@ -1237,6 +1374,16 @@ html {
         padding-bottom: 50px
     }
 
+    .Prevention-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            '. prevention1 prevention1 prevention2 prevention2 .'
+            '. prevention3 prevention3 prevention4 prevention4 .'
+            '. . prevention5 prevention5 . .';
+        gap: 10px;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -1319,6 +1466,10 @@ html {
         gap: 25px;
     }
 
+    #ebola-img {
+        max-width:70%
+    }
+
     .prevent {
         display: grid;
         grid-template-columns: 1fr;
@@ -1342,6 +1493,18 @@ html {
         margin-bottom: 25px;
         padding-top: 50px;
         padding-bottom: 50px
+    }
+
+    .Prevention-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'prevention1'
+            'prevention2'
+            'prevention3'
+            'prevention4'
+            'prevention5';
+        gap: 25px;
     }
 }
 
@@ -1568,7 +1731,7 @@ html {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/vvrius.jpeg") center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(151, 151, 151, 0.7)), url("../img/vvrius.jpeg") center center;
     background-size: cover;
     padding: 200px 0;
 
@@ -1612,7 +1775,199 @@ html {
 }
 
 
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact {
+    background: url("../img/contact-bg.png") left top no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  
+  @media (max-width: 640px) {
+    .contact {
+      background-position: center 50px;
+    }
+  }
+  
+  .contact:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .contact .info-item+.info-item {
+    margin-top: 40px;
+  }
+  
+  .contact .info-item i {
+    font-size: 20px;
+    background: var(--color-primary);
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+  }
+  
+  .contact .info-item h4 {
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #1c88ba;
+  }
+  
+  .contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  
+  .contact .php-email-form {
+    width: 100%;
+  }
+  
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #df1529;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br+br {
+    margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #059652;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #059652;
+    border-top-color: #fff;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 12px 15px;
+  }
+  
+  .contact .php-email-form input:focus,
+  .contact .php-email-form textarea:focus {
+    border-color: var(--color-primary);
+  }
+  
+  .contact .php-email-form textarea {
+    padding: 10px 12px;
+  }
+  
+  .contact .php-email-form button[type=submit] {
+    background: #1f98d1;
+    border: 0;
+    padding: 12px 40px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+    background: var(--color-primary);
+  }
+  
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
+
+  
+/*--------------------------------------------------------------
+# Services Cards Section
+--------------------------------------------------------------*/
+.services-cards {
+    background: #f7f9fc;
+  }
+  
+  .services-cards .card-item {
+    border: 1px solid rgba(27, 47, 69, 0.1);
+    background: #fff;
+    position: relative;
+    border-radius: 0;
+  }
+  
+  .services-cards .card-item .card-bg {
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .services-cards .card-item .card-body {
+    padding: 30px;
+  }
+  
+  .services-cards .card-item h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--color-secondary);
+  }
+  
+  .services-cards .card-item p {
+    color: var(--color-secondary);
+    margin: 0;
+  }
 
 
 
