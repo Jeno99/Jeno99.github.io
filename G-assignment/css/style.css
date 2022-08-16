@@ -102,6 +102,12 @@ font {
     height: 100%;
 }
 
+.bg-image-structure{
+    background-image: url(../img/background\(about\).jpg);
+    width: 100%;
+    height: 100%;
+}
+
 /* HIV */
 .bg-img-HIV {
     background-image: url(../img/hiv\ treatment\ for\ all.jpg);
