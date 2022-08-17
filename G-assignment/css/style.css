@@ -1395,6 +1395,7 @@ html {
 
 @media screen and (max-width: 450px) {
 
+
     /* Font Size(mobile) */
     .p-large {
         font-size: 35px;
@@ -2020,6 +2021,9 @@ html {
 @media screen and (max-width: 912px) {
     
 
+    .viruscardimg {
+        width: 70%;
+    }
     /* DO NOT DELETE*/
     .p-large {
         font-size: 45px;
