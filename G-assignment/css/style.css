@@ -84,10 +84,10 @@ font {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.margin-center-ebola{
+.margin-center-ebola {
     margin: auto;
-    margin-top:25px;
-    margin-bottom:25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: 200px;
     height: 200px;
 }
@@ -102,7 +102,7 @@ font {
     height: 100%;
 }
 
-.bg-image-structure{
+.bg-image-structure {
     background-image: url(../img/background\(about\).jpg);
     width: 100%;
     height: 100%;
@@ -507,8 +507,7 @@ html {
 #ebola-img {
     cursor: pointer;
     transition: 0.3s;
-    max-width:40%
-    
+    max-width: 40%
 }
 
 #ebola-img:hover {
@@ -1015,9 +1014,11 @@ html {
     cursor: pointer;
     margin: auto;
     transition: 0.3s;
-  }
-  
-  #Covid-Structure:hover {opacity: 0.7;}
+}
+
+#Covid-Structure:hover {
+    opacity: 0.7;
+}
 
 /*H1N1 pg 1*/
 .bg-image-h1n1 {
@@ -1174,7 +1175,7 @@ html {
     }
 
     #ebola-img {
-        max-width:60%
+        max-width: 60%
     }
 
 
@@ -1473,7 +1474,7 @@ html {
     }
 
     #ebola-img {
-        max-width:70%
+        max-width: 70%
     }
 
     .prevent {
@@ -1788,15 +1789,15 @@ html {
     background: url("../img/contact-bg.png") left top no-repeat;
     background-size: contain;
     position: relative;
-  }
-  
-  @media (max-width: 640px) {
+}
+
+@media (max-width: 640px) {
     .contact {
-      background-position: center 50px;
+        background-position: center 50px;
     }
-  }
-  
-  .contact:before {
+}
+
+.contact:before {
     content: "";
     background: rgba(255, 255, 255, 0.7);
     position: absolute;
@@ -1804,13 +1805,13 @@ html {
     top: 0;
     left: 0;
     right: 0;
-  }
-  
-  .contact .info-item+.info-item {
+}
+
+.contact .info-item+.info-item {
     margin-top: 40px;
-  }
-  
-  .contact .info-item i {
+}
+
+.contact .info-item i {
     font-size: 20px;
     background: var(--color-primary);
     color: #fff;
@@ -1822,60 +1823,60 @@ html {
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
     margin-right: 15px;
-  }
-  
-  .contact .info-item h4 {
+}
+
+.contact .info-item h4 {
     padding: 0;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 5px;
     color: #1c88ba;
-  }
-  
-  .contact .info-item p {
+}
+
+.contact .info-item p {
     padding: 0;
     margin-bottom: 0;
     font-size: 14px;
-  }
-  
-  .contact .php-email-form {
+}
+
+.contact .php-email-form {
     width: 100%;
-  }
-  
-  .contact .php-email-form .form-group {
+}
+
+.contact .php-email-form .form-group {
     padding-bottom: 8px;
-  }
-  
-  .contact .php-email-form .error-message {
+}
+
+.contact .php-email-form .error-message {
     display: none;
     color: #fff;
     background: #df1529;
     text-align: left;
     padding: 15px;
     font-weight: 600;
-  }
-  
-  .contact .php-email-form .error-message br+br {
+}
+
+.contact .php-email-form .error-message br+br {
     margin-top: 25px;
-  }
-  
-  .contact .php-email-form .sent-message {
+}
+
+.contact .php-email-form .sent-message {
     display: none;
     color: #fff;
     background: #059652;
     text-align: center;
     padding: 15px;
     font-weight: 600;
-  }
-  
-  .contact .php-email-form .loading {
+}
+
+.contact .php-email-form .loading {
     display: none;
     background: #fff;
     text-align: center;
     padding: 15px;
-  }
-  
-  .contact .php-email-form .loading:before {
+}
+
+.contact .php-email-form .loading:before {
     content: "";
     display: inline-block;
     border-radius: 50%;
@@ -1886,94 +1887,107 @@ html {
     border-top-color: #fff;
     -webkit-animation: animate-loading 1s linear infinite;
     animation: animate-loading 1s linear infinite;
-  }
-  
-  .contact .php-email-form input,
-  .contact .php-email-form textarea {
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
     border-radius: 0;
     box-shadow: none;
     font-size: 14px;
     padding: 12px 15px;
-  }
-  
-  .contact .php-email-form input:focus,
-  .contact .php-email-form textarea:focus {
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
     border-color: var(--color-primary);
-  }
-  
-  .contact .php-email-form textarea {
+}
+
+.contact .php-email-form textarea {
     padding: 10px 12px;
-  }
-  
-  .contact .php-email-form button[type=submit] {
+}
+
+.contact .php-email-form button[type=submit] {
     background: #1f98d1;
     border: 0;
     padding: 12px 40px;
     color: #fff;
     transition: 0.4s;
-  }
-  
-  .contact .php-email-form button[type=submit]:hover {
+}
+
+.contact .php-email-form button[type=submit]:hover {
     background: var(--color-primary);
-  }
-  
-  @-webkit-keyframes animate-loading {
+}
+
+.viruscardimg {
+    width: 200px;
+}
+
+.viruscard {
+    margin: auto;
+}
+
+.virustypename {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+@-webkit-keyframes animate-loading {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  
-  @keyframes animate-loading {
+}
+
+@keyframes animate-loading {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
 
 
-  
+
 /*--------------------------------------------------------------
 # Services Cards Section
 --------------------------------------------------------------*/
 .services-cards {
     background: #f7f9fc;
-  }
-  
-  .services-cards .card-item {
+}
+
+.services-cards .card-item {
     border: 1px solid rgba(27, 47, 69, 0.1);
     background: #fff;
     position: relative;
     border-radius: 0;
-  }
-  
-  .services-cards .card-item .card-bg {
+}
+
+.services-cards .card-item .card-bg {
     min-height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  
-  .services-cards .card-item .card-body {
+}
+
+.services-cards .card-item .card-body {
     padding: 30px;
-  }
-  
-  .services-cards .card-item h4 {
+}
+
+.services-cards .card-item h4 {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 15px;
     color: var(--color-secondary);
-  }
-  
-  .services-cards .card-item p {
+}
+
+.services-cards .card-item p {
     color: var(--color-secondary);
     margin: 0;
-  }
+}
 
 
 
