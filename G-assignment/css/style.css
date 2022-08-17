@@ -1919,7 +1919,7 @@ html {
 }
 
 .viruscardimg {
-    width: 200px;
+    width: 100%;
 }
 
 .viruscard {
@@ -2018,6 +2018,7 @@ html {
 }
 
 @media screen and (max-width: 912px) {
+    
 
     /* DO NOT DELETE*/
     .p-large {
