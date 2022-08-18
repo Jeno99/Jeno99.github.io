@@ -280,10 +280,6 @@ font {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.h1n1_Structure_img {
-    max-width: 500px;
-}
-
 .icon-box h4 {
     font-weight: 700;
     margin: 5px 0 10px 60px
@@ -314,7 +310,7 @@ font {
 }
 
 .h1n1_Structure_img {
-    max-width: 500px;
+    max-width: 100%;
 }
 
 /* Ebola page 1*/
