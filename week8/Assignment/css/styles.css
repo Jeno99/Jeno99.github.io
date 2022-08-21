@@ -1004,10 +1004,6 @@ legend{
     width: 100%;
   }
 
-  video {
-    width: 100%;
-  }
-
   .button1 {
     margin-top: 25px;
     background-color: #12052E;
@@ -1163,9 +1159,7 @@ legend{
   .faction-part-3 {
     background-image: url(../images/terran-republic-planetside-2-red-black-wallpaper-preview.jpg);
     background-repeat: no-repeat;
-    background-position: right center; 
-    background-size: 125px 165px;
-    right: 25px;
+    background-size: contain;
   }
 
   .faction-part-4 {
@@ -1178,9 +1172,7 @@ legend{
   .faction-part-4 {
     background-image: url(../images/d6k539j-d8edd431-4e99-472c-94c8-cb3d72d87887.jpg);
     background-repeat: no-repeat;
-    background-position: right center; 
-    background-size: 125px 165px;
-    right: 25px;
+    background-size: contain;
   }
 
   .faction-part-5 {
@@ -1193,9 +1185,12 @@ legend{
   .faction-part-5 {
     background-image: url(../images/artworks-000398753550-ho2hsj-t500x500.jpg);
     background-repeat: no-repeat;
-    background-position: right center; 
-    background-size: 125px 165px;
-    right: 25px;
+    background-size: contain;
+  }
+
+  .faction-part-3-paragraph{
+    width: 90%;
+    padding-left: 25px;
   }
 
   .map-flex{
